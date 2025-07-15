@@ -1,3 +1,12 @@
+# 15.07.25
+
+- Added STL's to the Printables page. 
+- Ø65mm clamp added [untested, will be tested shortly] Should not remove any cutting area according to CAD.
+- 4.2.2/SKR Pico+SSR enclosure added (will add mount for the underside of the machine later)
+- 20mm “mod” front corners merged to main build. Old corners are still in CAD but has 20mm less cutting area on Y axis. 
+
+
+
 # 29.06.2025
 - Basic BOM listed. Please note that i might have not counted correclty. If you find any issues please let me know. BOM [here](https://github.com/Futtawuh/EnderCNCs/blob/main/Ender3CNC/BOM.md)
 - Added optional front corners, adding 20mm extra Y cutting area. No changes to BOM.

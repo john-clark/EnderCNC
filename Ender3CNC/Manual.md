@@ -1,4 +1,4 @@
-# Ender 3 PRO based CNC Build manual (not finished)
+# Ender 3 PRO based CNC Build manual
 
 ### !! Note: This "guide" might contain errors with hardware parts, if you find any issue please let me know !!
 

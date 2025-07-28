@@ -176,7 +176,42 @@
 
 
 
-# TO BE CONTINUED
+## Attach the Dremel clamp or Ø52-65mm clamp depening on what you use. 
+
+<img width="891" height="772" alt="image" src="https://github.com/user-attachments/assets/abeddd62-0fa9-4661-8faf-852c7a49ba65" />
+<img width="816" height="636" alt="image" src="https://github.com/user-attachments/assets/ad378b98-c385-4a31-9faf-c659c8fad4c1" />
+
+
+
+# Wires
+
+### Now you can finally touch the limit switches. 
+
+- Solder wires to 4x limit switches as you do for any 3d printer. If you are using wires with JST on the end, slide the wires into the wire holes for the endstop and then solders them to the limit switch.
+- With the wires soldered on guide the limit switch into the hole and press it in, make sure it sits secure.
+- If its too tight, lightly sand the faces of the limit switch and try again untill it fits.
+- if its too loose use something to shim it tight or add a bit of hotglue to the hole then push the switch in. 
+<img width="1684" height="528" alt="image" src="https://github.com/user-attachments/assets/3da706a2-3e1c-42b8-87ce-5e7f920d97a9" />
+
+## Ziptie mounts for wire pathing. 
+![Screenshot_20250728_215833](https://github.com/user-attachments/assets/9707564c-00c8-45d0-8bc4-fbd0206f12f6)
+
+## Electronics enclosure. 
+- If you are using a 4.2.2/7 board or a SKR Pico there are housings for those with room for SSR on Printables. 
+- You'll have to edit the part to fit a RPI if you use one. ( I use a old laptop running Ubuntu and klippers as a RPI)
+- Any other enclosure/board setup you'll have to make something that fits your needs. 
+<img width="1169" height="866" alt="image" src="https://github.com/user-attachments/assets/56185c27-e378-4418-afa9-d0d2b21476d9" />
+<img width="1036" height="873" alt="image" src="https://github.com/user-attachments/assets/116521b7-7949-4bc5-a8b3-a1c03da9da04" />
+
+### PSU: You are on your own here for liability reasons, practice good safety.
+
+## Machine should now be built and if everything feels smooth when moving it by hand you are good to start on firmware!
+
+### Reference printer.cfg for klipper here. 
+
+- For Klipper set everything up as you do with any 3D printer running klipper. Read the Klipper docs if you dont know how to.
+- For GRBL base do the same according to your setup. 
+
 
 
 

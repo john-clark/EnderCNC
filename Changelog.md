@@ -1,3 +1,14 @@
+# 28.07.25
+
+- Added new CAD version, no major changes yet, only updates to the BEEFY dremel clams, Ø52-65mm spindle clamps. 
+- Removed old dremel clamp and old Z carriage from STL's. [still available in CAD]
+- Added BEEFY version of the dremel clamp.
+- Added new Z carriage for the BEEFY clamps [does not fit with the old dremel clamp]
+- Removed faceplate from Printables, does not fit the new BEEFY clamps [Will come back soon]
+- As always, there is no way for me to test the clamps on every “clone” of a dremel. You'll have to print a test and adjust as needed.
+- Full credit to Shadowphyre for the new BEEFY dremel clamps. 
+
+
 # 24.07.25
 - Back after vacation !
 - Added new electronics enclosure models, 15mm more clearance for wires. 

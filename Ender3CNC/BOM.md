@@ -4,7 +4,7 @@
 
 # Screws from Ender 3 Pro
 
-- 2x m5x30 button head from e3p z axis vwheel holder.  [ENDER3]
+- 10x m5x30 button head.  [ENDER3]
 - 16x M5x45 bolts from the e3p frame (remove the shims if you can) [ENDER3]
 - 2x M4x20  [ENDER3]
 - 2x M4x16  [ENDER3]
@@ -16,7 +16,6 @@
 - 2x M4x10 + 2x M4 t-nut [ENDER3]
 - 11x m3x10  [ENDER3]
 - 2x 688 bearings if yours have these, if not buy 608zz as listed in BOM
-- M5x30 screws
 
 # BUY:
 

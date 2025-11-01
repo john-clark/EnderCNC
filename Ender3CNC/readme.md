@@ -1,5 +1,7 @@
 # Ender 3 PRO based CNC! [Printables link!](https://www.printables.com/model/1318299-e3cnc-ender-3-pro-based-cnc)
 ![image](https://github.com/user-attachments/assets/df2746be-0fd8-4aa2-b609-81031dc4cfa2)
+![image](https://github.com/user-attachments/assets/43854a83-0945-4e80-aa53-9ccf8a7e4b0b)
+
 
 ## Fully built!
 https://github.com/user-attachments/assets/6816d12f-9653-461b-ad77-0ac71268e209
@@ -33,9 +35,6 @@ You can ofcourse go the GRBL route if you want. I just wanted to use klipper sin
 * vwheels
 * alu spacers
 * screen if you want
-
-![image](https://github.com/user-attachments/assets/43854a83-0945-4e80-aa53-9ccf8a7e4b0b)
-
 
 
 

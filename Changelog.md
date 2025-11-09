@@ -1,3 +1,7 @@
+# 09.11.25
+- Added new version of the front corners to printables. [Not uploaded to the CAD file yet] The older ones could make it hard to get the spoilboard in place.  If you want the old ones they are available in the CAD file. 
+
+
 # 29.07.25
 
 - Cleaned up CAD a bit, new CAD uploaded today that is ONLY for the cheap version that is tested and works. There will not be more updates to this CAD version unless issues arrise.

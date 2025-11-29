@@ -32,6 +32,7 @@
 - 3x 20t, 6mm Width, 5mm bore pulleys GT2
 - 4x M5 shims (od10 - id5 - 1mm thick)
 - 22x M3x10 screws (not countersunk)
+- 12 x M3x8 SHSC
 
 # Optional:
 

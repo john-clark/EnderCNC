@@ -44,7 +44,7 @@ need picture
 <img width="1045" height="1370" alt="Screenshot_20251209_134440" src="https://github.com/user-attachments/assets/433246ef-ba87-4ff9-9061-19262ef5be22" />
 
 ### E3CNC.15 by superjasiek!
-<img width="795" height="741" alt="Screenshot_20251209_134607" src="https://github.com/user-attachments/assets/574149d3-70f1-41da-828f-f373adb1d65d" />
+![superja](https://github.com/user-attachments/assets/df2071ae-4e44-489c-87f6-6c19672b9223)
 
 ### E3CNC.16 by itsmosby!
 <img width="1637" height="1359" alt="image" src="https://github.com/user-attachments/assets/909b0d43-5cea-43f3-81fa-6d1a7bf38a4c" />

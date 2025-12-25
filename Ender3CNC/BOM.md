@@ -11,6 +11,9 @@ I've tried to keep the BOM parts as close as possible to a Voron 3D Printer buil
 
 ## !NOTE! Some Ender 3's might be sligthly different in what hardware was used in what year/make. So please dont follow it 100% blindly. 
 
+### You can re-use 3 limit switches from the Ender 3, but you need to cut them of the PCB and you'll still be missing 1, so you need to order AT LEAST 1 more.
+### You can re-use 2 belt lengts from the Ender 3, but you still need one more ~500mm lenght, so better to just buy get 2-3 meters to have some spare too.  
+
 | Quantity | Part Description | Notes |
 |----------|------------------|-------|
 | **M5 Screws** |

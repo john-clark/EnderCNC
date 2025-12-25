@@ -1,39 +1,64 @@
-# This is just a reference BOM from my own build and CAD. I might have counted wrong. If you find any issues please let me know. 
+# Bill of Materials (BOM)
 
-## I've tried to keep the BOM parts as close as possible to a Voron 3d Printer build in hopes people already have some of the BOM already.
+## Notes
+This is a reference BOM from my own build and CAD. I might have counted wrong. If you find any issues please let me know.
 
-# Screws from Ender 3 Pro
+I've tried to keep the BOM parts as close as possible to a Voron 3D Printer build in hopes people already have some of the BOM already.
 
-- 10x m5x30 button head.  [ENDER3]
-- 16x M5x45 bolts from the e3p frame (remove the shims if you can) [ENDER3]
-- 2x M4x20  [ENDER3]
-- 2x M4x16  [ENDER3]
-- 6x M3x10  [ENDER3]
-- 4x M3x40  [ENDER3]
-- All M5 nuts [ENDER3]
-- 4x M5x8 [ENDER3]
-- 12x M3x6 [ENDER3]
-- 2x M4x10 + 2x M4 t-nut [ENDER3]
-- 11x m3x10  [ENDER3]
-- 2x 688 bearings if yours have these, if not buy 608zz as listed in BOM
+---
 
-# BUY:
+## Parts from Ender 3 Pro
 
-- 3x ~500mm lenght belts, best to just buy a 3-5 meter roll on Ali for cheap. 6mm GT2 
-- 2x 608ZZ bearings (8x22x7) [or check if your ender 3 X axis tensioner got 2x 688 bearings]
-- 4x D2F-L Microswitch (limitswitch) (Ender only has 3, but just get a 10 pack for cheap on Ali for an easier time fitting them in place)
-- ~20x m3 Tnuts (2020) [Can use sliding or t-nuts]
-- ~40x M5 Tnuts (2020) [Can use sliding or t-nuts]
-- 10x m5 locknuts (hexnuts)
-- 30x m3 "voron spec" heat insets - m3x4x5
-- ~70x M5x16 BHscrew
-- 2x 150mm MGN12H (1 carriage pr rail)
-- 1x M5x65 screw [middle lower X axis wheel, can be optoinal as i have no idea if it actually does anything. More=Better?]
-- 3x 20t, 6mm Width, 5mm bore pulleys GT2
-- 4x M5 shims (od10 - id5 - 1mm thick)
-- 22x M3x10 screws (not countersunk)
-- 12 x M3x8 SHSC
+## !NOTE! Some Ender 3's might be sligthly different in what hardware was used in what year/make. So please dont follow it 100% blindly. 
 
-# Optional:
+| Quantity | Part Description | Notes |
+|----------|------------------|-------|
+| **M5 Screws** |
+| 10x | M5x30 button head | |
+| 16x | M5x45 bolts | From E3P frame (remove shims if possible) |
+| 4x | M5x8 | |
+| 1x | M5x65 | Middle lower X axis wheel (optional) |
+| All | M5 nuts | From your Ender 3 |
+| **M4 Screws** |
+| 2x | M4x20 | |
+| 2x | M4x16 | |
+| 2x | M4x10 | Includes 2x M4 t-nuts |
+| **M3 Screws** |
+| 6x | M3x10 | |
+| 11x | M3x10 | Additional |
+| 4x | M3x40 | |
+| 12x | M3x6 | |
+| **Bearings** |
+| 2x | 688 bearings | If your E3P has these; otherwise buy 608ZZ |
 
-- 8x 5mmID x 8mmOD x 8mm length alu spares for Y axis wheels. (replaces printed spacers)
+---
+
+## Parts to Purchase
+
+| Quantity | Part Description | Specifications | Notes |
+|----------|------------------|----------------|-------|
+| **Motion Components** |
+| 3x | GT2 belts | ~500mm length each, 6mm width | Buy 3-5 meter roll on AliExpress |
+| 3x | GT2 pulleys | 20T, 6mm width, 5mm bore | |
+| 2x | MGN12H linear rails | 150mm length | 1 carriage per rail |
+| 2x | 608ZZ bearings | 8x22x7mm | Or use 688 from Ender 3 |
+| **Electronics** |
+| 4x | D2F-L Microswitch | Limit switch | Get 10 pack on AliExpress |
+| **Fasteners** |
+| ~20x | M3 T-nuts | For 2020 extrusion | Sliding or standard t-nuts |
+| ~40x | M5 T-nuts | For 2020 extrusion | Sliding or standard t-nuts |
+| 10x | M5 locknuts | Hex nuts | |
+| ~70x | M5x16 button head screws | | |
+| 22x | M3x10 screws | Not countersunk | |
+| 12x | M3x8 SHCS | Socket head cap screws | |
+| **Hardware** |
+| 30x | Heat set inserts | M3x4x5mm | Voron spec |
+| 4x | M5 shims | OD 10mm, ID 5mm, 1mm thick | |
+
+---
+
+## Optional Upgrades
+
+| Quantity | Part Description | Specifications | Purpose |
+|----------|------------------|----------------|---------|
+| 8x | Aluminum spacers | 5mm ID x 8mm OD x 8mm length | Replaces printed Y axis wheel spacers |

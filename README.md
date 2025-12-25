@@ -58,10 +58,11 @@ This new cheaper version is now released! Based only on the Ender 3 PRO, where e
 ## The more expensive "bigger" brother of the E3CNC </div>
 
 **Features**
-* 12mm ROD and linear bearings
-* slightly bigger cutting area
-* leadscrews on all axis
-* more rigid
+* 12mm RODs and linear bearings
+* Slightly bigger cutting area
+* Leadscrews on all axis
+* 2 or 3 rods on X axis. 
+* More rigid
 * Can easily be modified to fit 8-16mm rods
 
 ### MGN Version (SoonTM)

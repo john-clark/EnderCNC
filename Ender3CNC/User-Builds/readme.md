@@ -52,6 +52,17 @@ need picture
 ### E3CNC.17 by TimToBeat!
 ![tim](https://github.com/user-attachments/assets/0e28263a-54ac-4ce4-a752-f5e4068d18bd)
 
+### E3CNC.18 by Kestranor!
+<img width="936" height="1173" alt="image" src="https://github.com/user-attachments/assets/c31b80af-27df-4b9a-9371-5a7a85ac506e" />
+
+### E3CNC.19 by Dillpickckle!
+<img width="598" height="824" alt="image" src="https://github.com/user-attachments/assets/270eda31-7724-4a57-b8a9-f81a26e8c230" />
+
+### E3CNC.20 by Scherwiii | Steven!
+Need picture
+
+### E3CNC.21 by blaze!
+![blaze](https://github.com/user-attachments/assets/a522d95f-7237-4cf6-a4d5-c84f2eab05fa)
 
 
 

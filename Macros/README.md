@@ -1,4 +1,4 @@
-# E3CNC Macros for Workspace XYZ0 Positioning
+# E3CNC KLIPPER Macros for Workspace XYZ0 Positioning
 
 ## What These Macros Do and Why
 

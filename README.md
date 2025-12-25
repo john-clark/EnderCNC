@@ -42,11 +42,29 @@ This new cheaper version is now released! Based only on the Ender 3 PRO, where e
 * BOM cost approximately $60 (not counting the Ender 3 PRO or dremel/spindle)
 * Chances are you have some of the BOM laying around already
 * Includes CAD for milling its own aluminium upgrades if it can handle it like the original version
-
+<div align="center">
 <img width="800" alt="Ender3CNC view 1" src="https://github.com/user-attachments/assets/df2746be-0fd8-4aa2-b609-81031dc4cfa2" />
 <img width="800" alt="Ender3CNC view 2" src="https://github.com/user-attachments/assets/43854a83-0945-4e80-aa53-9ccf8a7e4b0b" />
+</div>
 
-### MGN Version (Coming Soon)
+<div align="center">
+
+# E3CNC [RODMOD](https://github.com/Futtawuh/EnderCNCs/tree/main/Ender3CNC/Developer_MODS/E3CNC%20RodMod) is OUT!
+
+</div>
+
+<div align="center"> <img width="800" alt="image" src="https://github.com/user-attachments/assets/5c84db71-b683-490a-b512-def62845910a" />
+  
+## The more expensive "bigger" brother of the E3CNC </div>
+
+**Features**
+* 12mm ROD and linear bearings
+* slightly bigger cutting area
+* leadscrews on all axis
+* more rigid
+* Can easily be modified to fit 8-16mm rods
+
+### MGN Version (SoonTM)
 The MGN version will be based around the new Ender3CNC version, with minor tweaks to the frame layout resulting in a bigger cutting area.
 
 ---

@@ -1,6 +1,17 @@
-# EnderCNC's!
+<h1 align="center">EnderCNC's!</h1>
 
-## [Join us on Discord!](https://discord.gg/f6FjTJYpcy)
+<div align="center">
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Us-7289da?logo=discord&logoColor=white)](https://discord.gg/f6FjTJYpcy)
+[![Printables](https://img.shields.io/badge/Printables-Model-orange.svg)](https://www.printables.com/model/1318299-e3cnc-ender-3-pro-based-cnc)
+[![User Builds](https://img.shields.io/badge/User%20Builds-Gallery-green.svg)](https://github.com/Futtawuh/EnderCNCs/tree/main/Ender3CNC/User-Builds)
+[![GitHub Stars](https://img.shields.io/github/stars/Futtawuh/EnderCNCs?style=social)](https://github.com/Futtawuh/EnderCNCs/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/Futtawuh/EnderCNCs?style=social)](https://github.com/Futtawuh/EnderCNCs/network/members)
+
+<img width="800" alt="Ender3CNC view 1" src="https://github.com/user-attachments/assets/df2746be-0fd8-4aa2-b609-81031dc4cfa2" />
+
+</div>
 
 ### About This Project
 Got too many Enders laying around? Don't need a [5th Trident?](https://github.com/yell3D/Ender3dent) Well! Try one of the EnderCNC's, born from a lack of sleep, a wish to learn more CAD and too many spare parts floating around.
@@ -34,13 +45,6 @@ This new cheaper version is now released! Based only on the Ender 3 PRO, where e
 
 <img width="800" alt="Ender3CNC view 1" src="https://github.com/user-attachments/assets/df2746be-0fd8-4aa2-b609-81031dc4cfa2" />
 <img width="800" alt="Ender3CNC view 2" src="https://github.com/user-attachments/assets/43854a83-0945-4e80-aa53-9ccf8a7e4b0b" />
-
-### Original EnderCNC
-**[View Project Files](https://github.com/Futtawuh/EnderCNCs/tree/main/EnderCNC%20CAD)**
-
-The original EnderCNC underwent a facelift and is tested OK on parts. Now in "release" version and won't have updates unless issues arise. This was loosely based on the Ender 3 PRO + Ender 4 parts.
-
-<img width="800" alt="Original EnderCNC" src="https://github.com/user-attachments/assets/9c401c66-4c9e-4997-86d7-50659553de69" />
 
 ### MGN Version (Coming Soon)
 The MGN version will be based around the new Ender3CNC version, with minor tweaks to the frame layout resulting in a bigger cutting area.

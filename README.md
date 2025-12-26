@@ -67,11 +67,13 @@ This new cheaper version is now released! Based only on the Ender 3 PRO, where e
 
 # E3CNC [RODMOD](https://github.com/Futtawuh/EnderCNCs/tree/main/Ender3CNC/Developer_MODS/E3CNC%20RodMod) is OUT!
 
+## The more expensive "bigger" brother of the E3CNC 
+
 </div>
 
 <div align="center"> <img width="800" alt="image" src="https://github.com/user-attachments/assets/5c84db71-b683-490a-b512-def62845910a" />
   
-## The more expensive "bigger" brother of the E3CNC </div>
+</div>
 
 **Features**
 * 12mm RODs and linear bearings

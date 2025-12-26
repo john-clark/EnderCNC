@@ -16,6 +16,38 @@
 ### About This Project
 Got too many Enders laying around? Don't need a [5th Trident?](https://github.com/yell3D/Ender3dent) Well! Try one of the EnderCNC's, born from a lack of sleep, a wish to learn more CAD and too many spare parts floating around.
 
+## Current Versions
+
+### Ender3CNC (Budget Version)
+**[View Project Files](https://github.com/Futtawuh/EnderCNCs/tree/main/Ender3CNC)**
+
+This new cheaper version is now released! Based only on the Ender 3 PRO, where every part from the printer counts to keep the BOM cost very low.
+
+### reusing from the Ender 3 PRO:
+* Frame
+* steppers
+* wires (might need to extend some)
+* leadscrew
+* leadscrew nut
+* coupler
+* mcu
+* psu
+* most of the nuts and bolts
+* v-wheels
+* alu spacers
+* belts (see BOM)
+* limit switches (see BOM)
+* screen if you want
+
+**Features:**
+* BOM cost approximately $60 (not counting the Ender 3 PRO or dremel/spindle)
+* Chances are you have some of the BOM laying around already.
+* 
+<div align="center">
+<img width="800" alt="Ender3CNC view 1" src="https://github.com/user-attachments/assets/df2746be-0fd8-4aa2-b609-81031dc4cfa2" />
+<img width="800" alt="Ender3CNC view 2" src="https://github.com/user-attachments/assets/43854a83-0945-4e80-aa53-9ccf8a7e4b0b" />
+</div>
+
 ## Project Links
 
 **Documentation**
@@ -30,22 +62,6 @@ Got too many Enders laying around? Don't need a [5th Trident?](https://github.co
 **Software**
 * [Fusion Post Processor](https://github.com/Zergie/mpcnc_post_processor/blob/main/MPCNC.cps) (Credit: Zergie)
 * [How to use/install Post Processor](https://github.com/Futtawuh/EnderCNCs/blob/main/Ender3CNC/fusion360%20post%20processor.md)
-
-## Current Versions
-
-### Ender3CNC (Budget Version)
-**[View Project Files](https://github.com/Futtawuh/EnderCNCs/tree/main/Ender3CNC)**
-
-This new cheaper version is now released! Based only on the Ender 3 PRO, where every part from the printer counts to keep the BOM cost very low.
-
-**Features:**
-* BOM cost approximately $60 (not counting the Ender 3 PRO or dremel/spindle)
-* Chances are you have some of the BOM laying around already
-* Includes CAD for milling its own aluminium upgrades if it can handle it like the original version
-<div align="center">
-<img width="800" alt="Ender3CNC view 1" src="https://github.com/user-attachments/assets/df2746be-0fd8-4aa2-b609-81031dc4cfa2" />
-<img width="800" alt="Ender3CNC view 2" src="https://github.com/user-attachments/assets/43854a83-0945-4e80-aa53-9ccf8a7e4b0b" />
-</div>
 
 <div align="center">
 

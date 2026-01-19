@@ -13,6 +13,10 @@
 
 ### Print settings I used: PLA+, 5 wall, 5 top, 5 bottom, 40% gyroid.
 
+## Parts print Orientation for no supports needed. 
+<img width="1442" height="1062" alt="image-61-1" src="https://github.com/user-attachments/assets/4d2797a6-66be-467e-985a-3e145492814d" />
+
+
 ## Bearing Choice
 ### If you dont have 608Z use the F688Z from the Ender 3 Pro X axis tensioner. 
 ![bearing_choice](https://github.com/user-attachments/assets/d841fb1d-110e-4ea4-9d34-9ba2e50c555c)

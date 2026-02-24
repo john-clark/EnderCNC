@@ -31,8 +31,8 @@ jobs:
       # 3️⃣ Install MkDocs + Material theme
       - name: Install MkDocs & Material + Plugins
         run: |
-          pip install mkdocs==2.0.4
-          pip install mkdocs-material==9.0.0
+          pip install mkdocs==1.6.1
+          pip install mkdocs-material==8.6.16
           pip install mkdocs-git-revision-date-plugin
 
       # 4️⃣ Build the MkDocs site

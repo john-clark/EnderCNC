@@ -1,0 +1,66 @@
+# mkdocs.yml
+site_name: "Ender 3 PRO CNC Build Manual"
+site_url: "https://john-clark.github.io/EnderCNC"
+site_description: "Step-by-step guide to converting an Ender 3 PRO into a CNC machine"
+site_author: "Your Name"
+
+# Theme configuration
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: indigo
+    accent: pink
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.instant
+    - navigation.sections
+    - toc.integrate
+    - search.highlight
+    - search.suggest
+  icon:
+    repo: fontawesome/brands/github
+
+# Repository link for 'Edit on GitHub'
+repo_name: "john-clark/EnderCNC"
+repo_url: "https://github.com/john-clark/EnderCNC"
+edit_uri: "edit/main/docs/"
+
+# Navigation / sidebar
+nav:
+  - Introduction: index.md
+  - Tools & Parts:
+      - Tools: tools.md
+      - Hardware: hardware.md
+      - Printed Parts: printed_parts.md
+  - Frame Assembly:
+      - Frame Overview: frame.md
+      - XY Joints: xy_joints.md
+  - X+Z Carriage Assembly:
+      - X+Z Plate: xz_plate.md
+      - Z Carriage: z_carriage.md
+  - Belts & Spindle: belts_spindle.md
+  - Wiring & Electronics: wiring.md
+  - Firmware Setup: firmware.md
+  - Troubleshooting: troubleshooting.md
+  - Fusion360 Post Processor: fusion360_postprocessor.md
+
+# Extra plugins
+plugins:
+  - search
+  - git-revision-date  # shows last updated date if you want
+
+# Markdown extensions
+markdown_extensions:
+  - admonition    # for Notes, Warnings, Tips
+  - codehilite
+  - toc:
+      permalink: true
+
+# Extra configuration
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/john-clark/EnderCNC

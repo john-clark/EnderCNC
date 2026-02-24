@@ -42,7 +42,8 @@ nav:
   - X+Z Carriage Assembly:
       - X+Z Plate: xz_plate.md
       - Z Carriage: z_carriage.md
-  - Belts & Spindle: belts_spindle.md
+  - Belts: belts.md
+  - Spindle: spindle.md
   - Wiring & Electronics: wiring.md
   - Firmware Setup: firmware.md
   - Troubleshooting: troubleshooting.md

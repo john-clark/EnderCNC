@@ -29,9 +29,10 @@ jobs:
           python-version: '3.x'
 
       # 3️⃣ Install MkDocs + Material theme
-      - name: Install MkDocs & Material
+      - name: Install MkDocs & Material + Plugins
         run: |
-          pip install mkdocs mkdocs-material
+          pip install mkdocs==2.0.4 mkdocs-material
+          pip install mkdocs-git-revision-date-plugin
 
       # 4️⃣ Build the MkDocs site
       - name: Build MkDocs site

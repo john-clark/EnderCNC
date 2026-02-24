@@ -1,4 +1,4 @@
-# Ender 3 PRO CNC Build Manual
+# Ender 3 CNC Build Manual
 
 Welcome to the Ender 3 CNC build manual. This guide walks you through
 converting an Ender 3 3D printer into a fully functional CNC machine.

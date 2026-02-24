@@ -1,8 +1,8 @@
 # mkdocs.yml
-site_name: "Ender 3 PRO CNC Build Manual"
+site_name: "Ender 3 CNC Build Manual"
 site_url: "https://john-clark.github.io/EnderCNC"
-site_description: "Step-by-step guide to converting an Ender 3 PRO into a CNC machine"
-site_author: "Your Name"
+site_description: "Step-by-step guide to converting an Ender 3 into a CNC machine"
+site_author: "John Clark"
 
 # Theme configuration
 theme:

@@ -23,6 +23,7 @@
 - [Z probe](https://www.printables.com/model/1372537-e3cnc-limit-switch-z-probe-tool-height-sensor)
 - [Marker tool](https://www.printables.com/model/1610808-e3cnc-pen-holder)
 - [Electronics Enclosure](https://www.printables.com/model/226631-external-electronics-box-for-ender-3-pro)
+- [Parts Organizer](https://www.printables.com/model/84834-parametric-small-parts-organizer-tray-for-disassem)
 
 
 ### [Pully Extractor](https://www.printables.com/model/230013-press-fit-pulley-extractor-for-nema-17)
@@ -55,6 +56,10 @@
 ### [Electronics Enclosure](https://www.printables.com/model/226631-external-electronics-box-for-ender-3-pro)
 
 ![image](images/pxl_20220117_161312010.webp)
+
+### [Parts Organizer](https://www.printables.com/model/84834-parametric-small-parts-organizer-tray-for-disassem)
+
+![image](images/partsorganizer.webp)
 
 ---
 

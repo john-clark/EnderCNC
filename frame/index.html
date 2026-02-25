@@ -18,7 +18,7 @@
         <link rel="prev" href="../printed_parts/">
       
       
-        <link rel="next" href="../xz_plate/">
+        <link rel="next" href="../xy_joints/">
       
       
         
@@ -522,10 +522,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1-parts-required" class="md-nav__link">
+  <a href="#parts-required" class="md-nav__link">
     <span class="md-ellipsis">
       
-        1. Parts Required
+        Parts Required
       
     </span>
   </a>
@@ -533,10 +533,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#2-safety-notes" class="md-nav__link">
+  <a href="#safety-notes" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2. Safety Notes
+        Safety Notes
       
     </span>
   </a>
@@ -544,10 +544,66 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-assemble-the-frame" class="md-nav__link">
+  <a href="#1-cut-x-extrusion" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3. Assemble the Frame
+        1. Cut X Extrusion
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-assemble-the-frame" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Assemble the Frame
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Assemble the Frame">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#blind-joints" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Blind Joints
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Blind Joints">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#should-be-20mm-offset-both-front-and-back" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        should be 20mm offset both front and back.
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-heat-inserts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Heat Inserts
       
     </span>
   </a>
@@ -559,45 +615,6 @@
     <span class="md-ellipsis">
       
         4. XY Joints
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="4. XY Joints">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#parts-required" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Parts Required
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#steps" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Steps
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#5-cut-x-extrusion" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        5. Cut X Extrusion
       
     </span>
   </a>
@@ -631,7 +648,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../xy_joints.md" class="md-nav__link">
+      <a href="../xy_joints/" class="md-nav__link">
         
   
   
@@ -959,7 +976,7 @@
 <h1 id="frame-assembly">Frame Assembly<a class="headerlink" href="#frame-assembly" title="Permanent link">&para;</a></h1>
 <p>This chapter walks through building the Ender 3 PRO CNC frame, mounting XY joints, and preparing for the X+Z carriage assembly.</p>
 <hr />
-<h2 id="1-parts-required">1. Parts Required<a class="headerlink" href="#1-parts-required" title="Permanent link">&para;</a></h2>
+<h2 id="parts-required">Parts Required<a class="headerlink" href="#parts-required" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -1003,72 +1020,13 @@
 </tbody>
 </table>
 <hr />
-<h2 id="2-safety-notes">2. Safety Notes<a class="headerlink" href="#2-safety-notes" title="Permanent link">&para;</a></h2>
+<h2 id="safety-notes">Safety Notes<a class="headerlink" href="#safety-notes" title="Permanent link">&para;</a></h2>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>Do <strong>not press in the endstops</strong> until wiring is complete. They are press-fit and may be difficult to remove afterward.</p>
 </div>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p>Use a <strong>flat surface</strong> when squaring the frame for best results.</p>
-</div>
 <hr />
-<h2 id="3-assemble-the-frame">3. Assemble the Frame<a class="headerlink" href="#3-assemble-the-frame" title="Permanent link">&para;</a></h2>
-<ol>
-<li>Lay out the aluminum extrusions according to the frame diagram.  </li>
-<li>Take note of <strong>blind joints</strong> and the <strong>20mm offset</strong> on the back extrusion.  </li>
-<li>Loosely attach M5 bolts and T-nuts to hold the frame together.  </li>
-<li>Check that the frame is <strong>square</strong>:</li>
-<li>Measure diagonals; they should be equal.  </li>
-<li>Adjust joints as necessary.</li>
-</ol>
-<p><img alt="Frame Assembly" src="images/frame_assembly.png" /></p>
-<hr />
-<h2 id="4-xy-joints">4. XY Joints<a class="headerlink" href="#4-xy-joints" title="Permanent link">&para;</a></h2>
-<h3 id="parts-required">Parts Required<a class="headerlink" href="#parts-required" title="Permanent link">&para;</a></h3>
-<table>
-<thead>
-<tr>
-<th>Qty</th>
-<th>Item</th>
-<th>Source</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>8pc</td>
-<td>M5x45 SHSC</td>
-<td>Ender3</td>
-<td>Remove shims</td>
-</tr>
-<tr>
-<td>8pc</td>
-<td>M3x10</td>
-<td>Buy</td>
-<td></td>
-</tr>
-<tr>
-<td>8pc</td>
-<td>8mm Spacer (printed or 5mm bore alu)</td>
-<td>Buy</td>
-<td>Do <strong>not</strong> use Ender3 aluminum spacers here</td>
-</tr>
-</tbody>
-</table>
-<h3 id="steps">Steps<a class="headerlink" href="#steps" title="Permanent link">&para;</a></h3>
-<ol>
-<li>Assemble XY joints <strong>without pressing in the endstop</strong>.  </li>
-<li>Loosely attach 20T pulleys.  </li>
-<li>Mount XY joints to the frame:</li>
-<li>Slide bottom wheels into V-slot and loosely add M5 nuts.  </li>
-<li>Add top wheels with a slight wiggle to pop them into place.  </li>
-<li>Adjust angles carefully.  </li>
-<li>Double-check <strong>distance between X extrusion mounting points</strong> before cutting the X extrusion to length.</li>
-</ol>
-<p><img alt="XY Joints" src="images/xy_joints.png" /></p>
-<hr />
-<h2 id="5-cut-x-extrusion">5. Cut X Extrusion<a class="headerlink" href="#5-cut-x-extrusion" title="Permanent link">&para;</a></h2>
+<h2 id="1-cut-x-extrusion">1. Cut X Extrusion<a class="headerlink" href="#1-cut-x-extrusion" title="Permanent link">&para;</a></h2>
 <ol>
 <li>Measure your frame; Ender 3 frames may vary ± a few mm.  </li>
 <li>Cut X extrusion to size.  </li>
@@ -1079,13 +1037,39 @@
 <p>If you are unsure, measure twice before cutting. Once cut, you cannot undo it.</p>
 </div>
 <hr />
+<h2 id="2-assemble-the-frame">2. Assemble the Frame<a class="headerlink" href="#2-assemble-the-frame" title="Permanent link">&para;</a></h2>
+<h3 id="blind-joints">Blind Joints<a class="headerlink" href="#blind-joints" title="Permanent link">&para;</a></h3>
+<h4 id="should-be-20mm-offset-both-front-and-back">should be 20mm offset both front and back.<a class="headerlink" href="#should-be-20mm-offset-both-front-and-back" title="Permanent link">&para;</a></h4>
+<p><img alt="blind joint back" src="../images/447661189-a60326e6-98f7-465b-b56b-e87a3059d8f2.png" /></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Leave loose until corners are in place.</p>
+</div>
+<hr />
+<h2 id="3-heat-inserts">3. Heat Inserts<a class="headerlink" href="#3-heat-inserts" title="Permanent link">&para;</a></h2>
+<p><img alt="Frame Assembly" src="../images/447660129-06044989-acee-415d-8073-7125a64f05ce.png" /></p>
+<hr />
+<h2 id="4-xy-joints">4. XY Joints<a class="headerlink" href="#4-xy-joints" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Lay out the aluminum extrusions according to the frame diagram.  </li>
+<li>Take note of <strong>blind joints</strong> and the <strong>20mm offset</strong> on the back extrusion.  </li>
+<li>Loosely attach M5 bolts and T-nuts to hold the frame together.  </li>
+<li>Check that the frame is <strong>square</strong>:</li>
+<li>Measure diagonals; they should be equal.  </li>
+<li>Adjust joints as necessary.</li>
+</ol>
+<p><img alt="XY Joints" src="../images/449539844-e2e27689-e391-477f-b41b-ad53ba24886d.png" /></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Use a <strong>flat surface</strong> when squaring the frame for best results.</p>
+</div>
+<hr />
 <h2 id="6-final-checks">6. Final Checks<a class="headerlink" href="#6-final-checks" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Ensure frame is <strong>square and rigid</strong>.  </li>
-<li>Make sure XY joints <strong>move smoothly by hand</strong>.  </li>
 <li>Endstops are still <strong>unpressed</strong> for now.  </li>
 </ul>
-<p>After completing these steps, your frame is ready for the <strong>X+Z carriage assembly</strong>.</p>
+<p>After completing these steps, your frame is ready for <a href="../xy_joints/"><strong>X+Y Joints assembly</strong></a>.</p>
 
 
 

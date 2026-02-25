@@ -496,7 +496,7 @@
   
   
     <li class="md-nav__item">
-      <a href="xy_joints.md" class="md-nav__link">
+      <a href="xy_joints/" class="md-nav__link">
         
   
   
@@ -822,10 +822,46 @@
 
 
 <h1 id="ender-3-cnc-build-manual">Ender 3 CNC Build Manual<a class="headerlink" href="#ender-3-cnc-build-manual" title="Permanent link">&para;</a></h1>
-<p>Welcome to the Ender 3 CNC build manual. This guide walks you through
-converting an Ender 3 3D printer into a fully functional CNC machine.</p>
-<p><strong>⚠️ Note:</strong> This guide may contain errors. If you find any issues with hardware or instructions, please open an issue in the repository.</p>
+<p>Welcome to the Ender 3 CNC build manual. This guide walks you through converting an Ender 3 3D printer into a fully functional CNC machine.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This guide is a work in progress and may contain errors. If you find any issues with hardware or instructions, please open an issue in <a href="https://github.com/john-clark/EnderCNC">this repository</a>.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This is the first version and will be updated quickly</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
 <p>Use the sidebar to navigate chapters.</p>
+</div>
+<h1 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h1>
+<p><img alt="image" src="images/447669414-df2746be-0fd8-4aa2-b609-81031dc4cfa2.png" />
+<img alt="image" src="images/447669480-43854a83-0945-4e80-aa53-9ccf8a7e4b0b.png" /></p>
+<p>Print settings I used: PLA+, 5 wall, 5 top, 5 bottom, 40% gyroid.</p>
+<h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
+<p>Im just running the original MCU with Klipper for the control and Fusion360 for CAM (free version) with a klipperized post processor. So far no real issues. You might want to swap to a board with TMC control (skr pico/micro4) if you realy want to push it.  Im using an old laptop with Ubuntu with klipper on as a substitute for a Raspberry pi. </p>
+<p>You can of course go the GRBL route if you want. I just wanted to use klipper since people coming from 3D printers are somewhat familiar with that.</p>
+<ul>
+<li>Reusing as much as possible from the Ender 3 PRO down to the screws.</li>
+<li>Cheaper BOM than the original EnderCNC. BOM is mostly just some screws, 2x linear rails for Z and m3/m5 tnuts.</li>
+<li>Easy to scale up or down to any size if not using Ender 3 Pro frame. </li>
+</ul>
+<h3 id="reused-parts">Reused Parts<a class="headerlink" href="#reused-parts" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Frame</li>
+<li>steppers</li>
+<li>wires (might need to extend some)</li>
+<li>leadscrew</li>
+<li>leadscrew nut</li>
+<li>coupler</li>
+<li>mcu</li>
+<li>psu</li>
+<li>most of the nuts and bolts</li>
+<li>vwheels</li>
+<li>alu spacers</li>
+<li>screen if you want</li>
+</ul>
 
 
 

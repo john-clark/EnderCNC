@@ -49,7 +49,7 @@ Most builders received these with their Ender 3. These are not the highest quali
 
 ![Hex Drivers](images/hexdrivers.png)
 
-## M5 Tap
+### M5 Tap
 
 Used to cut internal threads in aluminum extrusion ends.
 
@@ -65,7 +65,7 @@ Recommendations:
 
 ![M5 Tap](images/tap.jpg)
 
-## Drill for Blind Joints
+### Drill for Blind Joints
 
 Blind joints allow you to secure two extrusions without drilling completely through both members.
 
@@ -80,7 +80,7 @@ Accuracy here prevents misalignment and frame twist.
 
 ---
 
-## Pulley Extraction Tool
+### Pulley Extraction Tool
 
 Stepper motor pulleys are often press-fit and difficult to remove without damage.
 
@@ -93,7 +93,7 @@ If you do not have a pulley puller, you can print a [Pulley Extractor](https://w
 
 ---
 
-## Heat Set Insert Tool
+### Heat Set Insert Tool
 
 A soldering iron with appropriate tip is required for installing heat set threaded inserts into printed components.
 
@@ -108,7 +108,7 @@ Proper insert installation significantly improves mechanical durability.
 
 ![Heat Set Insert Tool](images/heatinsert.png)
 
-## Saw
+### Saw
 
 The stock Ender 3 top horizontal extrusion will be cut and repurposed to form the dual Z-axis vertical rails.
 

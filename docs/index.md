@@ -1,5 +1,8 @@
 # Ender 3 CNC Build Manual
 
+!!! warning "Early Release"
+    This is Version 1 of the manual. Expect frequent iterative improvements.
+    
 ## Converting a Proven Motion Platform into a Precision CNC System
 
 The Ender 3 is a well-understood, mechanically consistent motion platform.
@@ -21,13 +24,7 @@ The result is a machine capable of cutting hardwood, plastics, and aluminum whil
     Revisions, refinements, and corrections are ongoing.
     If you encounter an issue or want to contribute feedback:
     [https://github.com/john-clark/EnderCNC/issues](https://github.com/john-clark/EnderCNC/issues)
-
-!!! warning "Early Release"
-    This is Version 1 of the manual. Expect frequent iterative improvements.
-
-!!! tip "Recommended Approach"
-    Follow the chapters sequentially. Mechanical alignment, structural rigidity, and configuration steps build on one another.
-
+    
 ---
 
 ## Design Philosophy
@@ -155,3 +152,5 @@ This manual will guide you through tools, parts, mechanical conversion, and conf
   </a>
 </p>
 
+!!! tip "Recommended Approach"
+    Follow the chapters sequentially. Mechanical alignment, structural rigidity, and configuration steps build on one another.

@@ -38,10 +38,11 @@ nav:
       - Printed Parts: printed_parts.md
   - Frame Assembly:
       - Frame Overview: frame.md
-      - XY Joints: xy_joints.md
-  - X+Z Carriage Assembly:
+  - Z Carriage Assembly:
       - X+Z Plate: xz_plate.md
       - Z Carriage: z_carriage.md
+  - Gantry Assembly:
+      - Gantry: gantry.md
   - Belts: belts.md
   - Spindle: spindle.md
   - Wiring & Electronics: wiring.md

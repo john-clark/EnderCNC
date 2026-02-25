@@ -21,21 +21,11 @@ The result is a machine capable of cutting hardwood, plastics, and aluminum whil
 
 ## Design Philosophy
 
-This project is not about bolting a spindle onto a printer.
+This project is not about bolting a spindle onto a printer. It is built around these engineering priorities:
 
-It is built around three engineering priorities:
+**Maximum Reuse** - Retain as much of the original machine as possible — frame, motion components, electronics — to reduce cost and complexity. Save the planet!
 
-**Structural Efficiency**
-
-Reinforce where loads increase. Preserve geometry where it is already sufficient.
-
-**Maximum Reuse**
-
-Retain as much of the original machine as possible — frame, motion components, electronics — to reduce cost and complexity.
-
-**Controlled Scalability**
-
-Allow adaptation to custom frames or expanded builds without redesigning the entire system.
+**Controlled Scalability** - Allow adaptation to custom frames or expanded builds without redesigning the entire system.
 
 Every modification exists for a reason: improved stiffness, reduced deflection, better load handling, or cleaner integration.
 
@@ -48,12 +38,10 @@ While this is still a developing platform, current test results demonstrate:
 * Stable hardwood cutting
 * Aluminum machining with conservative feeds
 * Repeatable part production
-* Significantly increased structural rigidity compared to stock printer configuration
 
 Final performance depends on tool selection, feeds and speeds, spindle choice, and tuning quality.
 
-This is not an industrial VMC.
-It is a capable, budget-conscious desktop CNC system when configured properly.
+This is not an industrial VMC. It is a capable, budget-conscious desktop CNC system when built and configured properly.
 
 ---
 

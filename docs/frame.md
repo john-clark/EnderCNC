@@ -16,29 +16,34 @@ This chapter walks through building the Ender 3 CNC frame.
 
 ---
 
-## Safety Notes
+## 1. Disassembly Ender 3
 
-!!! warning
-    Do **not press in the endstops** until wiring is complete. They are press-fit and may be difficult to remove afterward.
+It may seem obvious but in order to build the frame the old Ender must be disassembled.
+
+The parts tray organizer is usefull for keeping all the parts from running away while you are working on the build.
+
+![Disassembly](images/disassembly.png)
 
 ---
 
-## 1. Cut X Extrusion
+## 2. Cut X Extrusion
 
 1. Measure your frame; Ender 3 frames may vary ± a few mm.  
-2. Cut X extrusion to size.  
-3. Tap **4 new M5 threads** on the cut side.  
+2. Cut extrusion to size (use a machinest square to make sure they are square.)
+4. Tap **4 new M5 threads** on the cut side.  
 
 !!! tip
-    If you are unsure, measure twice before cutting. Once cut, you cannot undo it.
+    If you are unsure, measure three times before cutting. Once cut, you cannot undo it.
 
 ---
 
-## 2. Assemble the Frame
+## 3. Assemble the Frame
 
 ### Blind Joints
 
-#### should be 20mm offset both front and back. 
+These allow you to put a hex key through the hole to tighten the bolt below.
+
+#### should be 20mm on center offset both front and back. 
   
 ![blind joint back](images/447661189-a60326e6-98f7-465b-b56b-e87a3059d8f2.png)
 
@@ -48,15 +53,13 @@ This chapter walks through building the Ender 3 CNC frame.
 
 ---
 
-## 3. Heat Inserts
-
+## 4. Heat Inserts
 
 ![Frame Assembly](images/447660129-06044989-acee-415d-8073-7125a64f05ce.png)
 
-
 ---
 
-## 4. XY Joints
+## 5. XY Joints
 
 1. Lay out the aluminum extrusions according to the frame diagram.  
 2. Take note of **blind joints** and the **20mm offset** on the back extrusion.  
@@ -75,8 +78,10 @@ This chapter walks through building the Ender 3 CNC frame.
 ## 6. Final Checks
 
 - Ensure frame is **square and rigid**.  
-- Endstops are still **unpressed** for now.
 - Tighten bolts in blind joints. 
+
+!!! warning
+    Do **not press in the endstops** until wiring is complete. They are press-fit and may be difficult to remove afterward.
 
 ---
 

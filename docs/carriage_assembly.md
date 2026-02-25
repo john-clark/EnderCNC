@@ -25,15 +25,17 @@ This chapter covers assembling the carriage, mounting motors, bearings, and spac
 
 ---
 
-## 2. Safety Notes
+## 2. Assembly Exploded
 
-!!! warning
-    Do **not press in the endstops** until wiring is complete.  
-    Press-fit endstops can be very difficult to remove if installed too early.
+![Exploded Assembly](images/carriage_info.webp)
 
 ---
 
 ## 3. Assemble the X+Z Carriage
+
+!!! Tip
+    When cutting the z rail start with the center cut `1` and then cut the outside through holes off so there is more extrusion to thread on to and it is easier to make sure they are the same length.
+    ![cut 2020](images/z_cuts.png)
 
 1. Cut Ender3 2020 extrusions to 150mm x2.  
 2. Tap M5 threads in **both ends** of the 150mm extrusions.  
@@ -60,8 +62,6 @@ This chapter covers assembling the carriage, mounting motors, bearings, and spac
 ![X+Z Carriage](images/449552147-77d2ba43-ecc7-4f77-92b8-ad5840bc0d95.png)
 
 ![X+Z Carriage](images/449552231-81e4dd24-6af0-45d9-aec4-4afe465f2943.png)
-
-![X+Z Carriage](images/449552310-1d12b738-2ca4-4740-9579-ff64bf323fd3.png)
 
 !!! tip
     Ender3 aluminum spacers are 8.35mm. If using 8mm spacers from another source, use the **printed lower middle spacer** to maintain alignment.

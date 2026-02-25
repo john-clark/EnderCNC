@@ -12,13 +12,13 @@
         <meta name="author" content="John Clark">
       
       
-        <link rel="canonical" href="https://john-clark.github.io/EnderCNC/belts/">
+        <link rel="canonical" href="https://john-clark.github.io/EnderCNC/carriage_assembly/">
       
       
-        <link rel="prev" href="../gantry/">
+        <link rel="prev" href="../carriage_bearings/">
       
       
-        <link rel="next" href="../spindle/">
+        <link rel="next" href="../gantry/">
       
       
         
@@ -29,7 +29,7 @@
     
     
       
-        <title>Belts - Ender 3 CNC Build Manual</title>
+        <title>Assembly - Ender 3 CNC Build Manual</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#belts-and-spindle" class="md-skip">
+        <a href="#carriage-assembly" class="md-skip">
           Skip to content
         </a>
       
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Belts
+              Assembly
             
           </span>
         </div>
@@ -492,8 +492,10 @@
       
   
   
+    
   
   
+  
     
     
     
@@ -504,11 +506,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
           <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
@@ -529,7 +531,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             
@@ -600,10 +602,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../carriage_assembly/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Assembly
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -619,6 +648,70 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-parts-required" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Parts Required
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-safety-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Safety Notes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-assemble-the-xz-carriage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Assemble the X+Z Carriage
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ready-to-proceed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ready to Proceed?
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -722,37 +815,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Belts
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../belts/" class="md-nav__link">
         
   
   
@@ -768,48 +834,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#1-parts-required" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        1. Parts Required
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2-belt-installation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        2. Belt Installation
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1057,8 +1081,8 @@
   
 
 
-<h1 id="belts-and-spindle">Belts and Spindle<a class="headerlink" href="#belts-and-spindle" title="Permanent link">&para;</a></h1>
-<p>This chapter covers routing the GT2 belts.</p>
+<h1 id="carriage-assembly">Carriage Assembly<a class="headerlink" href="#carriage-assembly" title="Permanent link">&para;</a></h1>
+<p>This chapter covers assembling the carriage, mounting motors, bearings, and spacers.</p>
 <hr />
 <h2 id="1-parts-required">1. Parts Required<a class="headerlink" href="#1-parts-required" title="Permanent link">&para;</a></h2>
 <table>
@@ -1072,33 +1096,139 @@
 </thead>
 <tbody>
 <tr>
-<td>3pc</td>
-<td>~500mm GT2 6mm Belt</td>
+<td>4pc</td>
+<td>M3x8 BHSC</td>
+<td>Ender3</td>
+<td></td>
+</tr>
+<tr>
+<td>2pc</td>
+<td>M3x10</td>
 <td>Buy</td>
-<td>Measure carefully before cutting</td>
+<td></td>
+</tr>
+<tr>
+<td>10pc</td>
+<td>M5x16 BHSC</td>
+<td>Buy</td>
+<td></td>
+</tr>
+<tr>
+<td>2pc</td>
+<td>M5x8 BHSC</td>
+<td>Ender3</td>
+<td></td>
+</tr>
+<tr>
+<td>4pc</td>
+<td>M3x40</td>
+<td>Ender3</td>
+<td></td>
+</tr>
+<tr>
+<td>4pc</td>
+<td>M5x45 SHSC</td>
+<td>Ender3</td>
+<td>Remove shims</td>
+</tr>
+<tr>
+<td>1pc</td>
+<td>M5x65 BHSC</td>
+<td>Buy</td>
+<td></td>
 </tr>
 <tr>
 <td>12pc</td>
-<td>M3x10</td>
+<td>M3x8 SHSC</td>
 <td>Buy</td>
-<td>Some may be spare from Ender3</td>
+<td></td>
 </tr>
 <tr>
-<td>6pc</td>
-<td>Printed Belt Clamp</td>
+<td>2pc</td>
+<td>M3x16 BHSC</td>
+<td>Ender3</td>
+<td></td>
+</tr>
+<tr>
+<td>9pc</td>
+<td>Aluminum Spacers</td>
+<td>Ender3</td>
+<td></td>
+</tr>
+<tr>
+<td>1pc</td>
+<td>28.35mm Printed Spacer</td>
 <td>Printed</td>
-<td>Holds belt ends securely</td>
+<td></td>
+</tr>
+<tr>
+<td>5pc</td>
+<td>V-Wheels</td>
+<td>Ender3</td>
+<td></td>
+</tr>
+<tr>
+<td>4pc</td>
+<td>32.60mm Printed Spacer</td>
+<td>Printed</td>
+<td></td>
+</tr>
+<tr>
+<td>8pc</td>
+<td>M3x10 BHSC</td>
+<td>Ender3</td>
+<td></td>
 </tr>
 </tbody>
 </table>
 <hr />
-<h2 id="2-belt-installation">2. Belt Installation<a class="headerlink" href="#2-belt-installation" title="Permanent link">&para;</a></h2>
+<h2 id="2-safety-notes">2. Safety Notes<a class="headerlink" href="#2-safety-notes" title="Permanent link">&para;</a></h2>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Do <strong>not press in the endstops</strong> until wiring is complete.<br />
+Press-fit endstops can be very difficult to remove if installed too early.</p>
+</div>
+<hr />
+<h2 id="3-assemble-the-xz-carriage">3. Assemble the X+Z Carriage<a class="headerlink" href="#3-assemble-the-xz-carriage" title="Permanent link">&para;</a></h2>
 <ol>
-<li>Route GT2 belts along X and Y axes.  </li>
-<li>Use printed belt clamps to secure belt ends.  </li>
-<li>Ensure belts are <strong>tight but not overly stretched</strong>.  </li>
-<li>Test X/Y motion manually to confirm smooth travel.</li>
+<li>Cut Ender3 2020 extrusions to 150mm x2.  </li>
+<li>Tap M5 threads in <strong>both ends</strong> of the 150mm extrusions.  </li>
+<li>Press in bearings if not already done.  </li>
+<li>Loosely attach:</li>
+<li>Z motor coupler</li>
+<li>X motor pulley (20T)</li>
+<li>Attach both motors to their plates.  </li>
+<li>Assemble the 2020 extrusions as square and parallel as possible.  </li>
+<li>Mount the X motor carriage to the ZX carriage with wheels and spacers.  </li>
+<li>Attach the Z bottom bearing plate and Z motor plate.  </li>
+<li>Mount the MGN12 rails with carriages to the 2020 extrusions:</li>
+<li>Use a printed <strong>MGN12-&gt;2020 alignment tool</strong> to ensure straight rails.  </li>
+<li>Rails can slide into cutouts if slightly too long (max 4mm overhang).  </li>
+<li>Attach Z leadscrew nut to Z carriage.  </li>
+<li>Mount Z carriage to MGN12H carriages:<ul>
+<li>Slide up and down to check for binding. Adjust rails if necessary.  </li>
+</ul>
+</li>
+<li>Cut leadscrew to size (~180mm), double-check with your setup.  </li>
+<li>Screw leadscrew from bottom bearing to Z motor coupler and secure.  </li>
+<li>Slide the X+Z assembly on the previously cut X extrusion.</li>
 </ol>
+<p><img alt="X+Z Carriage" src="../images/449552007-73a1652d-c0c2-4bb7-a2be-acec6fe921a0.png" /></p>
+<p><img alt="X+Z Carriage" src="../images/449552147-77d2ba43-ecc7-4f77-92b8-ad5840bc0d95.png" /></p>
+<p><img alt="X+Z Carriage" src="../images/449552231-81e4dd24-6af0-45d9-aec4-4afe465f2943.png" /></p>
+<p><img alt="X+Z Carriage" src="../images/449552310-1d12b738-2ca4-4740-9579-ff64bf323fd3.png" /></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Ender3 aluminum spacers are 8.35mm. If using 8mm spacers from another source, use the <strong>printed lower middle spacer</strong> to maintain alignment.</p>
+</div>
+<hr />
+<h2 id="ready-to-proceed">Ready to Proceed?<a class="headerlink" href="#ready-to-proceed" title="Permanent link">&para;</a></h2>
+<p>After completing these steps, your <strong>Carriage Assembly is ready for Ganty installation</strong>.</p>
+<p align="center">
+  <a href="/EnderCNC/gantry" class="md-button md-button--primary">
+    Continue to Mounting Carriage on the Gantry  →
+  </a>
+</p>
 
 
 

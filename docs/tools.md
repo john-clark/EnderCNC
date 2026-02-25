@@ -125,11 +125,11 @@ Proper insert installation significantly improves mechanical durability.
 
 Once you have the required tools, continue to the next section to review required hardware and printed parts.
 
-<div style="text-align: center; margin-top: 2.5em;">
-
-[Continue to Hardware & BOM →](hardware.md){ .md-button .md-button--primary }
-
-</div>
+<p align="center">
+  <a href="hardware" class="md-button md-button--primary">
+    Continue to Hardware & BOM →
+  </a>
+</p>
 
 ---
 

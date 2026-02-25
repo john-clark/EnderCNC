@@ -16,14 +16,14 @@ This guide covers the core hardware needed to convert your Ender 3 (or Ender 3 P
 
 ## Differences betwen Ender 3 printers
 
-There a few key differences between versions of Ender 3D Printers and are worth noting.
+Before diving in there a few key differences between versions of Ender 3 3D printers and are worth noting. This may affect your decision if you are looking at models for this project.
 
 * Ender 3 and Ender 3 pro are essentially the same for the CNC conversion, the most significant difference is the extrusion used for the gantry (the Y extrusion that the Bed rides on).
 * The rest of Ender 3 models are not covered here as they have not been tested but are here for awareness, they may or may not be suitable.
 
 ![Ender 3 vs pro](images/ender-3-series.png)
 
-### Part Differences
+### Differences
 
 | Part                     | Ender 3  | Ender 3 Pro             | CNC Implication                                                 |
 | ------------------------ | -------- | ----------------------- | --------------------------------------------------------------- |
@@ -39,7 +39,7 @@ There a few key differences between versions of Ender 3D Printers and are worth 
 
 | Qty | Part Description        | Notes                             |
 |-----|-------------------------|-----------------------------------|
-| **Extrusions **                                                   |
+| **Extrusions**                                                    |
 | 1x  | 2020 v-slot Profile     | To be cut in half                 |
 | 2x  | 4040 v-slot Profile     |                                   |
 | 2x  | 2040 v-slot Profile     |                                   |
@@ -67,10 +67,9 @@ There a few key differences between versions of Ender 3D Printers and are worth 
 
 !!! Tip
     You can re-use 3 limit switches from the Ender 3, if you want to cut them off the PCB's but you'll still be missing 1, so you need to order AT LEAST 1 more, it is probably easier just to buy a new set if you go with this option. The recommendation is to go with the endstop mod.
+    
 
----
-
-## Parts to Purchase
+## Parts to Purchase (BOM) Bill of Materials
 
 | Qty | Part Description    | Specifications           | Notes                      |
 |-----|---------------------|--------------------------|----------------------------|
@@ -82,7 +81,7 @@ There a few key differences between versions of Ender 3D Printers and are worth 
 | 2x  | MGN12H linear rails | 150mm length             | 1 carriage per rail        |
 | 2x  | 608ZZ bearings      | 8x22x7mm                 | Or use 688 from Ender 3    |
 | **Electronics**                                                                   |
-| 4x  | D2F-L Microswitch   | Limit switch             | Get 10 pack / use origianl |
+| 4x  | D2F-L Microswitch   | Limit switch             | Get 10 pack / use original |
 | **Fasteners**                                                                     |
 | 20x | M3 T-nuts           | For 2020 extrusion       | Sliding or standard t-nuts |
 | 40x | M5 T-nuts           | For 2020 extrusion       | Sliding or standard t-nuts |
@@ -94,10 +93,45 @@ There a few key differences between versions of Ender 3D Printers and are worth 
 | 30x | Heat set inserts    | M3x4x5mm                 | Voron spec                 |
 | 4x  | M5 shims            | OD 10mm, ID 5mm, 1mm     | Washers                    |
 
----
-
 ## Optional Upgrades
 
 | Qty | Part Description | Specifications               | Purpose                               |
 |-----|------------------|------------------------------|---------------------------------------|
 | 8x  | Aluminum spacers | 5mm ID x 8mm OD x 8mm length | Replaces printed Y axis wheel spacers |
+
+
+---
+
+## Self sourcing 
+
+!!! warning
+    If you can't find a reasonable priced Ender 3 you can self source the parts from the jungle store.
+
+This is to give you an idea of the cost if you were to build your own classic Ender 3 printer. It does not include all the parts that came with the original Ender, it is just a ballpark figure for people interested.
+
+Cost for profiles:
+---
+- 2020 profiles - 330 + 345 = 675 mm [Amazon $18](https://www.amazon.com/Seekliny-Aluminum-Extrusion-V-Slotted-Accessories/dp/B0DY7D8B23) 2 extra
+- 2040 profiles - 330 + 400 + 400 = 1,130 mm [Amazon $18](https://www.amazon.com/400mm-Aluminum-Extrusion-European-Standard/dp/B0DST7TW3Z) 0 extra so buy 2 $36
+- 4040 profiles - 250 + 290 + 290 = 830 mm [Amazon $55 4x600mm](https://www.amazon.com/Aluminum-Extrusion-European-Standard-Anodized/dp/B09MYGZDW4)  cut to appropriate length enough for 2
+### $109/2 = $55
+
+Other essential parts
+---
+- Power supply [Amazon $22](https://www.amazon.com/SHNITPWR-Switching-Converter-Transformer-Security/dp/B07TWW8Q73) x2
+- 42-34 Motor [Amazon $27](https://www.amazon.com/YEJMKJ-Stepper-41-07oz%C2%B7-Bipolar-Printer/dp/B0FHHV9JZG) x2
+- 42-34 Motor [Amazon $22](https://www.amazon.com/Printer-Stepper-42-40-Extruder-Creality/dp/B0CSW9KG8H) 1 each
+
+---
+## Total for 2 (frame/motor/power) = $229
+
+
+## Ready to Proceed?
+
+Once you have the required parts, continue to the next section to review required printed parts.
+
+<p align="center">
+  <a href="/EnderCNC/printed_parts" class="md-button md-button--primary">
+    Continue to Printed Parts →
+  </a>
+</p>

@@ -1,6 +1,6 @@
 # Frame Assembly
 
-This chapter walks through building the Ender 3 PRO CNC frame, mounting XY joints, and preparing for the X+Z carriage assembly.
+This chapter walks through building the Ender 3 CNC frame.
 
 ---
 
@@ -77,4 +77,14 @@ This chapter walks through building the Ender 3 PRO CNC frame, mounting XY joint
 - Ensure frame is **square and rigid**.  
 - Endstops are still **unpressed** for now.  
 
-After completing these steps, your frame is ready for [**X+Y Joints assembly**](xy_joints.md).
+
+
+## Ready to Proceed?
+
+After completing these steps, your frame is ready for **X+Y Joints assembly**.
+
+<p align="center">
+  <a href="/EnderCNC/xy_joints" class="md-button md-button--primary">
+    Continue to X+Y Joints Assembly →
+  </a>
+</p>

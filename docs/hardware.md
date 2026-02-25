@@ -17,8 +17,9 @@ This guide covers the core hardware needed to convert your Ender 3 (or Ender 3 P
 ## Differences betwen Ender 3 printers
 
 There a few key differences between versions of Ender 3D Printers.
-  * Ender 3 and Ender 3 pro are essentially the same; for CNC conversion, the most significant difference is the extrusion used for the gantry.
-  * Other Ender 3 models are not covered here as they have not been tested.
+
+* Ender 3 and Ender 3 pro are essentially the same; for CNC conversion, the most significant difference is the extrusion used for the gantry.
+* Other Ender 3 models are not covered here as they have not been tested.
 
 ![Ender 3 vs pro](images/ender-3-series.png)
 
@@ -65,13 +66,15 @@ There a few key differences between versions of Ender 3D Printers.
 
 | Quantity | Part Description | Specifications | Notes |
 |----------|------------------|----------------|-------|
+| **Extrusion** |
+| 2x | 2040 v-slot or 4040 v-slot | 300mm | Only for Original Ender |
 | **Motion Components** |
-| 3x | GT2 belts | ~500mm length each, 6mm width | Buy 3-5 meter roll on AliExpress |
+| 3x | GT2 belts | ~500mm length each, 6mm width | Buy 3-5 meter roll |
 | 3x | GT2 pulleys | 20T, 6mm width, 5mm bore | |
 | 2x | MGN12H linear rails | 150mm length | 1 carriage per rail |
 | 2x | 608ZZ bearings | 8x22x7mm | Or use 688 from Ender 3 |
 | **Electronics** |
-| 4x | D2F-L Microswitch | Limit switch | Get 10 pack on AliExpress |
+| 4x | D2F-L Microswitch | Limit switch | Get 10 pack |
 | **Fasteners** |
 | ~20x | M3 T-nuts | For 2020 extrusion | Sliding or standard t-nuts |
 | ~40x | M5 T-nuts | For 2020 extrusion | Sliding or standard t-nuts |

@@ -18,7 +18,9 @@ This chapter covers attaching your spindle or Dremel clamp.
 3. Slide spindle or Dremel into the clamp.  
 4. Adjust the height and secure tightly.  
 
-![Spindle Clamp](images/spindle_clamp.png)
+![Dremel Clamp](images/471677248-abeddd62-0fa9-4661-8faf-852c7a49ba65.png)
+
+![Spindle Clamp](images/471677474-ad378b98-c385-4a31-9faf-c659c8fad4c1.png)
 
 ---
 

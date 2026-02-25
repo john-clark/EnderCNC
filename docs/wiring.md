@@ -24,7 +24,7 @@ This chapter covers connecting limit switches, wiring the motors, and PSU setup.
    - If too loose → add shims or a small amount of hot glue.  
 4. Leave switches **unpressed** until the frame and carriage are fully installed.
 
-![Limit Switch Wiring](images/limit_switch_wiring.png)
+![Limit Switch Wiring](images/471681334-3da706a2-3e1c-42b8-87ce-5e7f920d97a9.png)
 
 ---
 
@@ -34,7 +34,7 @@ This chapter covers connecting limit switches, wiring the motors, and PSU setup.
 2. Keep wires away from moving parts.  
 3. Route motor, limit switch, and spindle wires neatly to the electronics enclosure.
 
-![Zip-Tie Mounts](images/zip_tie_mounts.png)
+![Zip-Tie Mounts](images/471683901-9707564c-00c8-45d0-8bc4-fbd0206f12f6.jpg)
 
 ---
 
@@ -46,7 +46,9 @@ This chapter covers connecting limit switches, wiring the motors, and PSU setup.
    - Only connect once wiring is fully complete.  
    - Practice safety and follow electrical guidelines.
 
-![Electronics Enclosure](images/electronics_enclosure.png)
+![Electronics Enclosure](images/471685321-56185c27-e378-4418-afa9-d0d2b21476d9.png)
+
+![Electronics Enclosure](images/471685419-116521b7-7949-4bc5-a8b3-a1c03da9da04.png)
 
 ---
 

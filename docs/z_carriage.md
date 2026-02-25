@@ -14,6 +14,11 @@ This chapter focuses on the Z-axis carriage, bearings, and coupler alignment.
 | 1pc | Leadscrew Nut    | Buy    | M5 threaded for Z |
 | 2pc | MGN12H Carriages | Buy    | For smooth linear motion |
 
+## Bearing Choice
+
+### If you dont have 608Z use the F688Z from the Ender 3 Pro X axis tensioner. 
+![bearing_choice](images/447661599-d841fb1d-110e-4ea4-9d34-9ba2e50c555c.png)
+
 ---
 
 ## 2. Installation Steps

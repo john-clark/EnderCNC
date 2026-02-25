@@ -23,6 +23,17 @@ This chapter covers assembling the X+Z carriage, mounting motors, bearings, and 
 | 4pc   | 32.60mm Printed Spacer  | Printed  |                              |
 | 8pc   | M3x10 BHSC              | Ender3   |                              |
 
+### Heatsets
+
+#### XZ Carriage Plate
+![XZ_gantry_heatsets](https://github.com/user-attachments/assets/4fba9685-d5d5-408a-81e0-5332c101e72b)
+
+#### Dremel Plate
+![dremel_plate_heatset](https://github.com/user-attachments/assets/914e1b90-3d9a-4424-9e26-8e420fbec676)
+#
+### Z Carriage
+![Z_carriage_heatsets](https://github.com/user-attachments/assets/64c9cadd-f4e9-4abc-87e2-47490f4da957)
+
 ---
 
 ## 2. Safety Notes
@@ -44,10 +55,6 @@ This chapter covers assembling the X+Z carriage, mounting motors, bearings, and 
 5. Attach both motors to their plates.  
 6. Assemble the 2020 extrusions as square and parallel as possible.  
 7. Mount the X motor carriage to the ZX carriage with wheels and spacers.  
-
-!!! tip
-    Ender3 aluminum spacers are 8.35mm. If using 8mm spacers from another source, use the **printed lower middle spacer** to maintain alignment.
-
 8. Attach the Z bottom bearing plate and Z motor plate.  
 9. Mount the MGN12 rails with carriages to the 2020 extrusions:
    - Use a printed **MGN12->2020 alignment tool** to ensure straight rails.  
@@ -59,4 +66,13 @@ This chapter covers assembling the X+Z carriage, mounting motors, bearings, and 
 13. Screw leadscrew from bottom bearing to Z motor coupler and secure.  
 14. Slide the X+Z assembly on the previously cut X extrusion.
 
-![X+Z Carriage](images/xz_carriage.png)
+![X+Z Carriage](images/449552007-73a1652d-c0c2-4bb7-a2be-acec6fe921a0.png)
+
+![X+Z Carriage](images/449552147-77d2ba43-ecc7-4f77-92b8-ad5840bc0d95.png)
+
+![X+Z Carriage](images/449552231-81e4dd24-6af0-45d9-aec4-4afe465f2943.png)
+
+![X+Z Carriage](images/449552310-1d12b738-2ca4-4740-9579-ff64bf323fd3.png)
+
+!!! tip
+    Ender3 aluminum spacers are 8.35mm. If using 8mm spacers from another source, use the **printed lower middle spacer** to maintain alignment.

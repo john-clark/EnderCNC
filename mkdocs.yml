@@ -38,9 +38,10 @@ nav:
       - Printed Parts: printed_parts.md
   - Frame Assembly:
       - Frame Overview: frame.md
-  - Z Carriage Assembly:
-      - X+Z Plate: xz_plate.md
-      - Z Carriage: z_carriage.md
+  - Carriage Assembly:
+      - Heatsets: carriage_heatsets.md
+      - Bearings: carriage_bearings.md
+      - Assembly: carriage_assembly.md
   - Gantry Assembly:
       - Gantry: gantry.md
   - Belts: belts.md

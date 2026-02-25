@@ -142,7 +142,7 @@ Complete details in the BOM.
 
 ---
 
-## Ready to Begin?
+## Ready to Proceed?
 
 This manual will guide you through tools, parts, mechanical conversion, and configuration.
 

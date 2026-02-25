@@ -296,17 +296,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#converting-a-proven-motion-platform-into-a-precision-cnc-system" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Converting a Proven Motion Platform into a Precision CNC System
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#design-philosophy" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -314,45 +303,6 @@
       
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Design Philosophy">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-structural-efficiency" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        1. Structural Efficiency
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-maximum-reuse" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        2. Maximum Reuse
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-controlled-scalability" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        3. Controlled Scalability
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -397,23 +347,6 @@
       
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="What You’ll Build">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#development-print-settings" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Development Print Settings
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -1221,7 +1154,7 @@
 <p class="admonition-title">Early Release</p>
 <p>This is Version 1 of the manual. Expect frequent iterative improvements.</p>
 </div>
-<h2 id="converting-a-proven-motion-platform-into-a-precision-cnc-system">Converting a Proven Motion Platform into a Precision CNC System<a class="headerlink" href="#converting-a-proven-motion-platform-into-a-precision-cnc-system" title="Permanent link">&para;</a></h2>
+<p><strong>Converting a Proven Motion Platform into a Precision CNC System</strong></p>
 <p>The Ender 3 is a well-understood, mechanically consistent motion platform.
 Ender3CNC transforms it into a capable desktop CNC machine — not as a novelty conversion, but as a deliberate, mechanically considered upgrade.</p>
 <p>This manual provides a structured, engineering-focused pathway to convert a standard Ender 3 (or Ender 3 Pro) into a rigid, repeatable CNC platform using:</p>
@@ -1236,11 +1169,11 @@ Ender3CNC transforms it into a capable desktop CNC machine — not as a novelty 
 <h2 id="design-philosophy">Design Philosophy<a class="headerlink" href="#design-philosophy" title="Permanent link">&para;</a></h2>
 <p>This project is not about bolting a spindle onto a printer.</p>
 <p>It is built around three engineering priorities:</p>
-<h3 id="1-structural-efficiency">1. Structural Efficiency<a class="headerlink" href="#1-structural-efficiency" title="Permanent link">&para;</a></h3>
+<p><strong>Structural Efficiency</strong></p>
 <p>Reinforce where loads increase. Preserve geometry where it is already sufficient.</p>
-<h3 id="2-maximum-reuse">2. Maximum Reuse<a class="headerlink" href="#2-maximum-reuse" title="Permanent link">&para;</a></h3>
+<p><strong>Maximum Reuse</strong></p>
 <p>Retain as much of the original machine as possible — frame, motion components, electronics — to reduce cost and complexity.</p>
-<h3 id="3-controlled-scalability">3. Controlled Scalability<a class="headerlink" href="#3-controlled-scalability" title="Permanent link">&para;</a></h3>
+<p><strong>Controlled Scalability</strong></p>
 <p>Allow adaptation to custom frames or expanded builds without redesigning the entire system.</p>
 <p>Every modification exists for a reason: improved stiffness, reduced deflection, better load handling, or cleaner integration.</p>
 <hr />
@@ -1285,17 +1218,6 @@ If you encounter an issue or want to contribute feedback:
 <p><img alt="Ender3CNC Build 1" src="images/447669414-df2746be-0fd8-4aa2-b609-81031dc4cfa2.png" />
 <img alt="Ender3CNC Build 2" src="images/447669480-43854a83-0945-4e80-aa53-9ccf8a7e4b0b.png" /></p>
 <p>The conversion reinforces primary load paths and implements independent dual Y-axis control, reducing racking, improving torsional resistance, and increasing positional stability under machining forces.</p>
-<h3 id="development-print-settings">Development Print Settings<a class="headerlink" href="#development-print-settings" title="Permanent link">&para;</a></h3>
-<p>The following print parameters were used during structural testing:</p>
-<ul>
-<li>PLA+</li>
-<li>5 perimeters</li>
-<li>5 top layers</li>
-<li>5 bottom layers</li>
-<li>40% gyroid infill</li>
-</ul>
-<p>These settings prioritize strength and rigidity over print speed.
-CNC loads demand stronger parts than typical printing applications.</p>
 <hr />
 <h2 id="control-architecture">Control Architecture<a class="headerlink" href="#control-architecture" title="Permanent link">&para;</a></h2>
 <p>Tested Reference configurations:</p>

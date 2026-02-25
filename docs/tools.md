@@ -116,7 +116,7 @@ The stock Ender 3 top horizontal extrusion will be cut and repurposed to form th
 * Bandsaw with fine-tooth blade
 * Hacksaw (acceptable with care)
 
-!! Tip "Making ends square"
+!!! Tip "Making ends square"
     Use a router to make sure ends of extrusion are square and the same length.
 
 ![router fixing extrusion ends](images/IMG_2603.webp)

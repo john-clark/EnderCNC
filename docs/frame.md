@@ -16,24 +16,26 @@ This chapter walks through building the Ender 3 CNC frame.
 
 ---
 
-## 1. Disassembly Ender 3
+## 1. Disassemble your old Ender 3
 
 It may seem obvious but in order to build the frame the old Ender must be disassembled.
 
 The parts tray organizer is usefull for keeping all the parts from running away while you are working on the build.
 
+You will thank yourself later for having a clean and organized work area (I wish I could live up to this!)
+
 ![Disassembly](images/disassembly.png)
 
 ---
 
-## 2. Cut X Extrusion
+## 2. Cut Extrusion
 
 1. Measure your frame; Ender 3 frames may vary ± a few mm.  
 2. Cut extrusion to size (use a machinest square to make sure they are square.)
 4. Tap **4 new M5 threads** on the cut side.  
 
 !!! tip
-    If you are unsure, measure three times before cutting. Once cut, you cannot undo it.
+    If you are unsure, measure six times before cutting. Once cut, you cannot undo it.
 
 ---
 

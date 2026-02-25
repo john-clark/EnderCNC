@@ -45,3 +45,15 @@ This chapter focuses on the Z-axis carriage, bearings, and coupler alignment.
 
 !!! warning
     Avoid forcing the leadscrew; misalignment can strip threads in the coupler.
+
+    
+
+## Ready to Proceed?
+
+After completing these steps, your Carriage Assembly is ready for **Final Assembly**.
+
+<p align="center">
+  <a href="/EnderCNC/carriage_assembly" class="md-button md-button--primary">
+    Continue to Carriage Assembly - Final Steps →
+  </a>
+</p>

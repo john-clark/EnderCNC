@@ -4,7 +4,7 @@ This chapter covers the heatsets and pressfits for the carriage.
 
 ---
 
-## 1. Parts Required
+## Parts Required
 
 | Qty   | Item                    | Source   | Notes                        |
 |-------|-------------------------|----------|------------------------------|
@@ -14,28 +14,29 @@ This chapter covers the heatsets and pressfits for the carriage.
 
 ### Heatsets
 
-#### XZ Carriage Plate
+**XZ Carriage Plate**
 ![XZ_gantry_heatsets](images/447660230-4fba9685-d5d5-408a-81e0-5332c101e72b.png)
 
-#### Dremel Plate
+**Dremel Plate**
 ![dremel_plate_heatset](images/447660281-914e1b90-3d9a-4424-9e26-8e420fbec676.png)
 
-#### Z Carriage
+**Z Carriage**
 ![Z_carriage_heatsets](images/447660324-64c9cadd-f4e9-4abc-87e2-47490f4da957.png)
 
-#### X-Motor plate
+**X-Motor plate**
 ![x_motor_heatsets](images/449762478-7332b77a-6eb4-4d05-9346-cdc946e39018.png)
 
 !!! warning
     Make sure heatsets are flush and perpendicular.
+    
 ---
 
 ### Pressfit Locknuts
 
-### Z Carriage
+**Z Carriage**
 ![Z_carriage_locknuts](images/447660752-0c3ac4f8-af64-4019-a32e-04f9a0526972.png)
 
-#### XZ Carriage Plate
+**XZ Carriage Plate**
 ![XZ_gantry_locknuts](images/447660912-1a03e0ed-d0fd-46fe-8d61-cae9c9132e79.png)
 
 

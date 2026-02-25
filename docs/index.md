@@ -17,16 +17,16 @@ The result is a machine capable of cutting hardwood, plastics, and aluminum whil
 ---
 
 !!! note "Work in Progress"
-  This documentation is under active development.
-  Revisions, refinements, and corrections are ongoing.
-  If you encounter an issue or want to contribute feedback:
-  [https://github.com/john-clark/EnderCNC/issues](https://github.com/john-clark/EnderCNC/issues)
+    This documentation is under active development.
+    Revisions, refinements, and corrections are ongoing.
+    If you encounter an issue or want to contribute feedback:
+    [https://github.com/john-clark/EnderCNC/issues](https://github.com/john-clark/EnderCNC/issues)
 
 !!! warning "Early Release"
-  This is Version 1 of the manual. Expect frequent iterative improvements.
+    This is Version 1 of the manual. Expect frequent iterative improvements.
 
 !!! tip "Recommended Approach"
-  Follow the chapters sequentially. Mechanical alignment, structural rigidity, and configuration steps build on one another.
+    Follow the chapters sequentially. Mechanical alignment, structural rigidity, and configuration steps build on one another.
 
 ---
 

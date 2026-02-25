@@ -37,7 +37,7 @@ This build involves modifying aluminum extrusions, cutting threads, aligning str
 | Pulley Extraction Tool   | Removing press-fit pulleys     |
 | Heat Set Insert Tool     | Installing threaded inserts    |
 | Machinist Square         | Ensuring frame alignment       |
-| Hack or Band saw         | Cutting Z rail extrusion mount |
+| Hack saw or Band saw     | Cutting Z rail extrusion mount |
 
 ---
 
@@ -115,6 +115,9 @@ The stock Ender 3 top horizontal extrusion will be cut and repurposed to form th
 * Miter saw with non-ferrous blade (preferred)
 * Bandsaw with fine-tooth blade
 * Hacksaw (acceptable with care)
+
+!! Tip "Making ends square"
+    Use a router to make sure ends of extrusion are square and the same length.
 
 ![router fixing extrusion ends](images/IMG_2603.webp)
 

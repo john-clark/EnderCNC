@@ -1,6 +1,7 @@
-# XY Joints
+# Gantry
 
-### !! Note: These instructions are specific to the Ender 3 PRO CNC conversion. Pressfits and tolerances may vary slightly between frames.
+!!! Note:
+    Press fits and tolerances may vary slightly between frames.
 
 ## Parts Required
 

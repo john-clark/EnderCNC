@@ -47,7 +47,9 @@ nav:
   - Wiring & Electronics: wiring.md
   - Firmware Setup: firmware.md
   - Troubleshooting: troubleshooting.md
-  - Fusion360 Post Processor: fusion360_postprocessor.md
+  - Post Processing:
+      - Fusion360 Post Processor: fusion360.md
+      - Kiri:Moto: kirimoto.md
 
 # Extra plugins
 plugins:
@@ -57,6 +59,9 @@ plugins:
 markdown_extensions:
   - admonition    # for Notes, Warnings, Tips
   - codehilite
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
   - toc:
       permalink: true
 

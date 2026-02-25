@@ -39,7 +39,7 @@ nav:
   - Frame Assembly:
       - Frame Overview: frame.md
   - Carriage Assembly:
-      - Heatsets: carriage_heatsets.md
+      - Setup: carriage_heatsets.md
       - Bearings: carriage_bearings.md
       - Assembly: carriage_assembly.md
   - Gantry Assembly:

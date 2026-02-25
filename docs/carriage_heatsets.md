@@ -31,10 +31,10 @@ This chapter covers the heatsets and pressfits for the carriage.
 ### Pressfit Locknuts
 
 ### Z Carriage
-![Z_carriage_heatsets](images/447660752-0c3ac4f8-af64-4019-a32e-04f9a0526972.png)
+![Z_carriage_locknuts](images/447660752-0c3ac4f8-af64-4019-a32e-04f9a0526972.png)
 
 #### XZ Carriage Plate
-![XZ_gantry_heatsets](iamges/447660912-1a03e0ed-d0fd-46fe-8d61-cae9c9132e79.png)
+![XZ_gantry_locknuts](images/447660912-1a03e0ed-d0fd-46fe-8d61-cae9c9132e79.png)
 
 ---
 

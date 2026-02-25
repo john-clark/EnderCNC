@@ -19,14 +19,6 @@ The result is a machine capable of cutting hardwood, plastics, and aluminum whil
 
 ---
 
-!!! note "Work in Progress"
-    This documentation is under active development.
-    Revisions, refinements, and corrections are ongoing.
-    If you encounter an issue or want to contribute feedback:
-    [https://github.com/john-clark/EnderCNC/issues](https://github.com/john-clark/EnderCNC/issues)
-    
----
-
 ## Design Philosophy
 
 This project is not about bolting a spindle onto a printer.
@@ -82,6 +74,14 @@ It is a capable, budget-conscious desktop CNC system when configured properly.
 
 This build rewards patience and mechanical understanding.
 
+---
+
+!!! note "Work in Progress"
+    This documentation is under active development.
+    Revisions, refinements, and corrections are ongoing.
+    If you encounter an issue or want to contribute feedback:
+    [https://github.com/john-clark/EnderCNC/issues](https://github.com/john-clark/EnderCNC/issues)
+    
 ---
 
 ## What You’ll Build
@@ -147,7 +147,7 @@ Complete details in the BOM.
 This manual will guide you through tools, parts, mechanical conversion, and configuration.
 
 <p align="center">
-  <a href="tools.md" class="md-button md-button--primary">
+  <a href="tools" class="md-button md-button--primary">
     Begin with Required Tools →
   </a>
 </p>

@@ -82,10 +82,10 @@ This chapter walks through building the Ender 3 CNC frame.
 
 ## Ready to Proceed?
 
-After completing these steps, your frame is ready for **Carriage Assembly** heatset installation.
+After completing these steps, you are ready to start on the **Carriage Assembly**.
 
 <p align="center">
   <a href="/EnderCNC/carriage_heatsets" class="md-button md-button--primary">
-    Continue to Carriage Assembly - Heatsets →
+    Continue to Carriage Assembly →
   </a>
 </p>

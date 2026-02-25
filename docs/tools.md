@@ -1,4 +1,3 @@
-
 # Tools & Equipment Required
 
 Before beginning the mechanical conversion, ensure you have the following tools and equipment available.
@@ -126,7 +125,7 @@ Proper insert installation significantly improves mechanical durability.
 Once you have the required tools, continue to the next section to review required hardware and printed parts.
 
 <p align="center">
-  <a href="hardware" class="md-button md-button--primary">
+  <a href="/hardware" class="md-button md-button--primary">
     Continue to Hardware & BOM →
   </a>
 </p>

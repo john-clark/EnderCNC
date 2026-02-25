@@ -245,6 +245,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="." class="md-nav__link md-nav__link--active">
         
   
@@ -261,6 +279,180 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#converting-a-proven-motion-platform-into-a-precision-cnc-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Converting a Proven Motion Platform into a Precision CNC System
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#design-philosophy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Design Philosophy
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Design Philosophy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-structural-efficiency" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Structural Efficiency
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-maximum-reuse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Maximum Reuse
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-controlled-scalability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Controlled Scalability
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#performance-snapshot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Performance Snapshot
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#who-this-project-is-for" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Who This Project Is For
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#who-this-project-is-not-for" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Who This Project Is Not For
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-youll-build" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What You’ll Build
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What You’ll Build">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#development-print-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Development Print Settings
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#control-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Control Architecture
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reused-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reused Components
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ready-to-begin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ready to Begin?
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -910,46 +1102,125 @@
 
 
 <h1 id="ender-3-cnc-build-manual">Ender 3 CNC Build Manual<a class="headerlink" href="#ender-3-cnc-build-manual" title="Permanent link">&para;</a></h1>
-<p>Welcome to the Ender 3 CNC build manual. This guide walks you through converting an Ender 3 3D printer into a fully functional CNC machine.</p>
+<h2 id="converting-a-proven-motion-platform-into-a-precision-cnc-system">Converting a Proven Motion Platform into a Precision CNC System<a class="headerlink" href="#converting-a-proven-motion-platform-into-a-precision-cnc-system" title="Permanent link">&para;</a></h2>
+<p>The Ender 3 is a well-understood, mechanically consistent motion platform.
+Ender3CNC transforms it into a capable desktop CNC machine — not as a novelty conversion, but as a deliberate, mechanically considered upgrade.</p>
+<p>This manual provides a structured, engineering-focused pathway to convert a standard Ender 3 (or Ender 3 Pro) into a rigid, repeatable CNC platform using:</p>
+<ul>
+<li>Maximum hardware reuse</li>
+<li>Minimal additional cost</li>
+<li>Documented design decisions</li>
+<li>Tested configurations</li>
+</ul>
+<p>The result is a machine capable of cutting hardwood, plastics, and aluminum while maintaining affordability and accessibility.</p>
+<hr />
 <div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>This guide is a work in progress and may contain errors. If you find any issues with hardware or instructions, please open an issue in <a href="https://github.com/john-clark/EnderCNC">this repository</a>.</p>
+<p class="admonition-title">Work in Progress</p>
 </div>
+<p>This documentation is under active development.
+Revisions, refinements, and corrections are ongoing.
+If you encounter an issue or want to contribute feedback:
+<a href="https://github.com/john-clark/EnderCNC/issues">https://github.com/john-clark/EnderCNC/issues</a></p>
 <div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>This is the first version and will be updated quickly</p>
+<p class="admonition-title">Early Release</p>
 </div>
+<p>This is Version 1 of the manual. Expect frequent iterative improvements.</p>
 <div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p>Use the sidebar to navigate chapters.</p>
+<p class="admonition-title">Recommended Approach</p>
 </div>
-<h1 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h1>
-<p><img alt="image" src="images/447669414-df2746be-0fd8-4aa2-b609-81031dc4cfa2.png" />
-<img alt="image" src="images/447669480-43854a83-0945-4e80-aa53-9ccf8a7e4b0b.png" /></p>
-<p>Print settings I used: PLA+, 5 wall, 5 top, 5 bottom, 40% gyroid.</p>
-<h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
-<p>Im just running the original MCU with Klipper for the control and Fusion360 for CAM (free version) with a klipperized post processor. So far no real issues. You might want to swap to a board with TMC control (skr pico/micro4) if you realy want to push it.  Im using an old laptop with Ubuntu with klipper on as a substitute for a Raspberry pi. </p>
-<p>You can of course go the GRBL route if you want. I just wanted to use klipper since people coming from 3D printers are somewhat familiar with that.</p>
+<p>Follow the chapters sequentially. Mechanical alignment, structural rigidity, and configuration steps build on one another.</p>
+<hr />
+<h2 id="design-philosophy">Design Philosophy<a class="headerlink" href="#design-philosophy" title="Permanent link">&para;</a></h2>
+<p>This project is not about bolting a spindle onto a printer.</p>
+<p>It is built around three engineering priorities:</p>
+<h3 id="1-structural-efficiency">1. Structural Efficiency<a class="headerlink" href="#1-structural-efficiency" title="Permanent link">&para;</a></h3>
+<p>Reinforce where loads increase. Preserve geometry where it is already sufficient.</p>
+<h3 id="2-maximum-reuse">2. Maximum Reuse<a class="headerlink" href="#2-maximum-reuse" title="Permanent link">&para;</a></h3>
+<p>Retain as much of the original machine as possible — frame, motion components, electronics — to reduce cost and complexity.</p>
+<h3 id="3-controlled-scalability">3. Controlled Scalability<a class="headerlink" href="#3-controlled-scalability" title="Permanent link">&para;</a></h3>
+<p>Allow adaptation to custom frames or expanded builds without redesigning the entire system.</p>
+<p>Every modification exists for a reason: improved stiffness, reduced deflection, better load handling, or cleaner integration.</p>
+<hr />
+<h2 id="performance-snapshot">Performance Snapshot<a class="headerlink" href="#performance-snapshot" title="Permanent link">&para;</a></h2>
+<p>While this is still a developing platform, current test results demonstrate:</p>
 <ul>
-<li>Reusing as much as possible from the Ender 3 PRO down to the screws.</li>
-<li>Cheaper BOM than the original EnderCNC. BOM is mostly just some screws, 2x linear rails for Z and m3/m5 tnuts.</li>
-<li>Easy to scale up or down to any size if not using Ender 3 Pro frame. </li>
+<li>Stable hardwood cutting</li>
+<li>Aluminum machining with conservative feeds</li>
+<li>Repeatable part production</li>
+<li>Significantly increased structural rigidity compared to stock printer configuration</li>
 </ul>
-<h3 id="reused-parts">Reused Parts<a class="headerlink" href="#reused-parts" title="Permanent link">&para;</a></h3>
+<p>Final performance depends on tool selection, feeds and speeds, spindle choice, and tuning quality.</p>
+<p>This is not an industrial VMC.
+It is a capable, budget-conscious desktop CNC system when configured properly.</p>
+<hr />
+<h2 id="who-this-project-is-for">Who This Project Is For<a class="headerlink" href="#who-this-project-is-for" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Frame</li>
-<li>steppers</li>
-<li>wires (might need to extend some)</li>
-<li>leadscrew</li>
-<li>leadscrew nut</li>
-<li>coupler</li>
-<li>mcu</li>
-<li>psu</li>
-<li>most of the nuts and bolts</li>
-<li>vwheels</li>
-<li>alu spacers</li>
-<li>screen if you want</li>
+<li>Makers comfortable assembling mechanical systems</li>
+<li>3D printer users familiar with firmware configuration</li>
+<li>Hobbyists looking for an accessible CNC entry point</li>
+<li>Builders who value reuse and system optimization</li>
+<li>Tinkerers who enjoy iterative improvement</li>
 </ul>
+<h2 id="who-this-project-is-not-for">Who This Project Is Not For<a class="headerlink" href="#who-this-project-is-not-for" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Users expecting plug-and-play CNC performance</li>
+<li>Production shops requiring industrial tolerances</li>
+<li>Builders unwilling to tune firmware or align mechanical systems</li>
+<li>Anyone uncomfortable with troubleshooting</li>
+</ul>
+<p>This build rewards patience and mechanical understanding.</p>
+<hr />
+<h2 id="what-youll-build">What You’ll Build<a class="headerlink" href="#what-youll-build" title="Permanent link">&para;</a></h2>
+<p><img alt="Ender3CNC Build 1" src="images/447669414-df2746be-0fd8-4aa2-b609-81031dc4cfa2.png" />
+<img alt="Ender3CNC Build 2" src="images/447669480-43854a83-0945-4e80-aa53-9ccf8a7e4b0b.png" /></p>
+<p>The conversion reinforces primary load paths and implements independent dual Y-axis control, reducing racking, improving torsional resistance, and increasing positional stability under machining forces.</p>
+<h3 id="development-print-settings">Development Print Settings<a class="headerlink" href="#development-print-settings" title="Permanent link">&para;</a></h3>
+<p>The following print parameters were used during structural testing:</p>
+<ul>
+<li>PLA+</li>
+<li>5 perimeters</li>
+<li>5 top layers</li>
+<li>5 bottom layers</li>
+<li>40% gyroid infill</li>
+</ul>
+<p>These settings prioritize strength and rigidity over print speed.
+CNC loads demand stronger parts than typical printing applications.</p>
+<hr />
+<h2 id="control-architecture">Control Architecture<a class="headerlink" href="#control-architecture" title="Permanent link">&para;</a></h2>
+<p>Tested Reference configurations:</p>
+<ul>
+<li>Original Ender 3 MCU, and other aftermarket 3D printer MCU's with Klipper firmware</li>
+<li>Fusion 360 (free version), FreeCAD, or Kiri:moto for CAM</li>
+<li>Ubuntu laptop running Klipper (as Raspberry Pi substitute) as a Klipper Post proceesor</li>
+</ul>
+<p>This configuration has proven stable during testing.</p>
+<p>A GRBL workflow is also viable. Klipper was selected to reduce the learning curve for users transitioning from 3D printing and reuse existing electronics.</p>
+<hr />
+<h2 id="reused-components">Reused Components<a class="headerlink" href="#reused-components" title="Permanent link">&para;</a></h2>
+<p>The system intentionally retains:</p>
+<ul>
+<li>Frame (cutting required)</li>
+<li>Stepper motors</li>
+<li>Wiring (some extensions may be required)</li>
+<li>Leadscrew and nut (cutting required)</li>
+<li>Coupler</li>
+<li>MCU</li>
+<li>Power supply</li>
+<li>Most fasteners</li>
+<li>V-wheels</li>
+<li>Aluminum spacers</li>
+<li>LCD (optional)</li>
+</ul>
+<p>The goal is not reinvention — it is optimization.</p>
+<p>Complete details in the BOM.</p>
+<hr />
+<h2 id="ready-to-begin">Ready to Begin?<a class="headerlink" href="#ready-to-begin" title="Permanent link">&para;</a></h2>
+<p>This manual will guide you through tools, parts, mechanical conversion, and configuration.</p>
+<div style="text-align: center; margin-top: 3em;">
+
+[Begin with Required Tools →](tools.md){ .md-button .md-button--primary }
+
+</div>
 
 
 

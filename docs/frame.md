@@ -75,9 +75,10 @@ This chapter walks through building the Ender 3 CNC frame.
 ## 6. Final Checks
 
 - Ensure frame is **square and rigid**.  
-- Endstops are still **unpressed** for now.  
+- Endstops are still **unpressed** for now.
+- Tighten bolts in blind joints. 
 
-
+---
 
 ## Ready to Proceed?
 

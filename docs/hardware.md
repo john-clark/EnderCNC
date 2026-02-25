@@ -109,22 +109,20 @@ Before diving in there a few key differences between versions of Ender 3 3D prin
 
 This is to give you an idea of the cost if you were to build your own classic Ender 3 printer. It does not include all the parts that came with the original Ender, it is just a ballpark figure for people interested.
 
-Cost for profiles:
----
+#### Cost for profiles:
 - 2020 profiles - 330 + 345 = 675 mm [Amazon $18](https://www.amazon.com/Seekliny-Aluminum-Extrusion-V-Slotted-Accessories/dp/B0DY7D8B23) 2 extra
 - 2040 profiles - 330 + 400 + 400 = 1,130 mm [Amazon $18](https://www.amazon.com/400mm-Aluminum-Extrusion-European-Standard/dp/B0DST7TW3Z) 0 extra so buy 2 $36
 - 4040 profiles - 250 + 290 + 290 = 830 mm [Amazon $55 4x600mm](https://www.amazon.com/Aluminum-Extrusion-European-Standard-Anodized/dp/B09MYGZDW4)  cut to appropriate length enough for 2
-### $109/2 = $55
+#### $109/2 = $55
 
-Other essential parts
----
+#### Other essential parts
 - Power supply [Amazon $22](https://www.amazon.com/SHNITPWR-Switching-Converter-Transformer-Security/dp/B07TWW8Q73) x2
 - 42-34 Motor [Amazon $27](https://www.amazon.com/YEJMKJ-Stepper-41-07oz%C2%B7-Bipolar-Printer/dp/B0FHHV9JZG) x2
 - 42-34 Motor [Amazon $22](https://www.amazon.com/Printer-Stepper-42-40-Extruder-Creality/dp/B0CSW9KG8H) 1 each
 
----
-## Total for 2 (frame/motor/power) = $229
+#### Total for 2 (frame/motor/power) = $229
 
+---
 
 ## Ready to Proceed?
 

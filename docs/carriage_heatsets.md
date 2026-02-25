@@ -26,6 +26,8 @@ This chapter covers the heatsets and pressfits for the carriage.
 #### X-Motor plate
 ![x_motor_heatsets](images/449762478-7332b77a-6eb4-4d05-9346-cdc946e39018.png)
 
+!!! warning
+    Make sure heatsets are flush and perpendicular.
 ---
 
 ### Pressfit Locknuts
@@ -36,12 +38,6 @@ This chapter covers the heatsets and pressfits for the carriage.
 #### XZ Carriage Plate
 ![XZ_gantry_locknuts](images/447660912-1a03e0ed-d0fd-46fe-8d61-cae9c9132e79.png)
 
----
-
-## 2. Notes
-
-!!! warning
-    Make sure heatsets are flush and perpendicular.
 
 !!! tip
     You may want to add a dab of superglue to the lock nuts to keep them in place.

@@ -149,8 +149,9 @@ Complete details in the BOM.
 
 This manual will guide you through tools, parts, mechanical conversion, and configuration.
 
-<div style="text-align: center; margin-top: 3em;">
+<p align="center">
+  <a href="tools.md" class="md-button md-button--primary">
+    Begin with Required Tools →
+  </a>
+</p>
 
-[Begin with Required Tools →](tools.md){ .md-button .md-button--primary }
-
-</div>

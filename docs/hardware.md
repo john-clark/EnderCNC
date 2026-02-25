@@ -118,6 +118,7 @@ This is to give you an idea of the cost if you were to build your own classic En
 **Two frames total = $109/2 or $55 each**
 
 **Other essential parts**
+
 - Power supply [Amazon $22](https://www.amazon.com/SHNITPWR-Switching-Converter-Transformer-Security/dp/B07TWW8Q73) x2
 - 42-34 Motor [Amazon $27](https://www.amazon.com/YEJMKJ-Stepper-41-07oz%C2%B7-Bipolar-Printer/dp/B0FHHV9JZG) x2
 - 42-40 Motor [Amazon $22](https://www.amazon.com/Printer-Stepper-42-40-Extruder-Creality/dp/B0CSW9KG8H) 1 each

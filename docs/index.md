@@ -3,7 +3,7 @@
 !!! warning "Early Release"
     This is Version 1 of the manual. Expect frequent iterative improvements.
     
-## Converting a Proven Motion Platform into a Precision CNC System
+**Converting a Proven Motion Platform into a Precision CNC System**
 
 The Ender 3 is a well-understood, mechanically consistent motion platform.
 Ender3CNC transforms it into a capable desktop CNC machine — not as a novelty conversion, but as a deliberate, mechanically considered upgrade.
@@ -25,15 +25,15 @@ This project is not about bolting a spindle onto a printer.
 
 It is built around three engineering priorities:
 
-### 1. Structural Efficiency
+**Structural Efficiency**
 
 Reinforce where loads increase. Preserve geometry where it is already sufficient.
 
-### 2. Maximum Reuse
+**Maximum Reuse**
 
 Retain as much of the original machine as possible — frame, motion components, electronics — to reduce cost and complexity.
 
-### 3. Controlled Scalability
+**Controlled Scalability**
 
 Allow adaptation to custom frames or expanded builds without redesigning the entire system.
 
@@ -90,19 +90,6 @@ This build rewards patience and mechanical understanding.
 ![Ender3CNC Build 2](images/447669480-43854a83-0945-4e80-aa53-9ccf8a7e4b0b.png)
 
 The conversion reinforces primary load paths and implements independent dual Y-axis control, reducing racking, improving torsional resistance, and increasing positional stability under machining forces.
-
-### Development Print Settings
-
-The following print parameters were used during structural testing:
-
-* PLA+
-* 5 perimeters
-* 5 top layers
-* 5 bottom layers
-* 40% gyroid infill
-
-These settings prioritize strength and rigidity over print speed.
-CNC loads demand stronger parts than typical printing applications.
 
 ---
 

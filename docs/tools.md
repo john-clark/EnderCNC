@@ -12,10 +12,9 @@ This build involves modifying aluminum extrusions, cutting threads, aligning str
   A miter saw with a non-ferrous blade, bandsaw, or hacksaw with fine tooth blade will work. Clean, square cuts are critical for frame alignment. We will go through this process.
 
 * **Linux machine running Klipper (optional)**
-
-  * Raspberry Pi (recommended), or
-  * Old laptop running Ubuntu or similar
-    Required only if using the Klipper control setup.
+    * Raspberry Pi (recommended), or
+    * Old laptop running Ubuntu or similar
+      Required only if using the Klipper control setup.
 
 * **Spindle or Rotary Tool (Dremel-style)**
   Ensure compatibility with printed clamps before purchasing.
@@ -38,6 +37,7 @@ This build involves modifying aluminum extrusions, cutting threads, aligning str
 | Pulley Extraction Tool   | Removing press-fit pulleys     |
 | Heat Set Insert Tool     | Installing threaded inserts    |
 | Machinist Square         | Ensuring frame alignment       |
+| Hack or Band saw         | Cutting Z rail extrusion mount |
 
 ---
 
@@ -107,6 +107,16 @@ Best practices:
 Proper insert installation significantly improves mechanical durability.
 
 ![Heat Set Insert Tool](images/heatinsert.png)
+
+## Saw
+
+The stock Ender 3 top horizontal extrusion will be cut and repurposed to form the dual Z-axis vertical rails.
+
+* Miter saw with non-ferrous blade (preferred)
+* Bandsaw with fine-tooth blade
+* Hacksaw (acceptable with care)
+
+![router fixing extrusion ends](images/IMG_2603.webp)
 
 ---
 

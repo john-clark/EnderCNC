@@ -5,8 +5,7 @@
     
 **Converting a Proven Motion Platform into a Precision CNC System**
 
-The Ender 3 is a well-understood, mechanically consistent motion platform.
-Ender3CNC transforms it into a capable desktop CNC machine — not as a novelty conversion, but as a deliberate, mechanically considered upgrade.
+The Ender 3 is a well-understood, mechanically consistent motion platform. Ender3CNC transforms it into a capable desktop CNC machine — not as a novelty conversion, but as a deliberate, mechanically considered upgrade. We want to save machines from the landfill and give them a new purpose.
 
 This manual provides a structured, engineering-focused pathway to convert a standard Ender 3 (or Ender 3 Pro) into a rigid, repeatable CNC platform using:
 

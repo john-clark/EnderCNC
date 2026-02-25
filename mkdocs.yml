@@ -52,7 +52,7 @@ nav:
 # Extra plugins
 plugins:
   - search
-  - git-revision-date  # shows last updated date if you want
+  - git-revision-date-localized
 
 # Markdown extensions
 markdown_extensions:

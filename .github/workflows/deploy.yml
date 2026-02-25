@@ -27,9 +27,7 @@ jobs:
       # 3️⃣ Install dependencies
       - name: Install MkDocs & Material + Plugins
         run: |
-          pip install mkdocs==1.6.1
           pip install mkdocs-material
-          pip install mkdocs-git-revision-date-localized-plugin
 
       # 4️⃣ Build the MkDocs site
       - name: Build MkDocs site

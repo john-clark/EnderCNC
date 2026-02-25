@@ -81,10 +81,10 @@ This chapter walks through building the Ender 3 CNC frame.
 
 ## Ready to Proceed?
 
-After completing these steps, your frame is ready for **X+Y Joints assembly**.
+After completing these steps, your frame is ready for **Carriage Assembly** heatset installation.
 
 <p align="center">
-  <a href="/EnderCNC/xy_joints" class="md-button md-button--primary">
-    Continue to X+Y Joints Assembly →
+  <a href="/EnderCNC/carriage_heatsets" class="md-button md-button--primary">
+    Continue to Carriage Assembly - Heatsets →
   </a>
 </p>

@@ -1,18 +1,37 @@
-# Hardware Bill of Materials (BOM)
+# Hardware Overview
 
-## Notes
-This is a reference BOM from my own build and CAD. I might have counted wrong. If you find any issues please let me know.
+This guide covers the core hardware needed to convert your Ender 3 (or Ender 3 Pro) into a desktop CNC machine. Parts are broken into reused components, items to purchase, and optional upgrades. Wherever possible, the BOM is aligned with common Voron 3D printer parts to make sourcing easier for hobbyists.
 
-I've tried to keep the BOM parts as close as possible to a Voron 3D Printer build in hopes people already have some of the BOM already.
+## Reused Ender 3 Parts
 
----
+* **Frame & Structural Components** – keep most of the original aluminum extrusions and screws.
+* **Electronics** - Original V1 and V4 MCU's have been tested.
+* **Motors & Wiring** – stepper motors, wiring harnesses, and couplers.
+* **Limit switches** – reuse up to 3, but you’ll need at least 1 additional switch.
+* **Belts & Bearings** – 2 belts can be reused; plan to buy extra. Use existing bearings.
+* **Fasteners** – most M3, M4, and M5 nuts and bolts can be salvaged.
 
-## Parts from Ender 3 Pro
+!!! Note
+    Modifications such as cutting the top 2020 extrusion for the z-axis require careful measurement.
 
-## !NOTE! Some Ender 3's might be sligthly different in what hardware was used in what year/make. So please dont follow it 100% blindly. 
+## Differences betwen Ender 3 printers
 
-### You can re-use 3 limit switches from the Ender 3, but you need to cut them off the PCB's and you'll still be missing 1, so you need to order AT LEAST 1 more.
-### You can re-use 2 belt lengts from the Ender 3, but you still need one more ~500mm lenght, so better to just buy get 2-3 meters to have some spare too.  
+There a few key differences between versions of Ender 3D Printers.
+  * Ender 3 and Ender 3 pro are essentially the same; for CNC conversion, the most significant difference is the extrusion used for the gantry.
+  * Other Ender 3 models are not covered here as they have not been tested.
+
+![Ender 3 vs pro](images/ender-3-series.png)
+
+### Part Differences
+
+| Part                     | Ender 3  | Ender 3 Pro             | CNC Implication                                                 |
+| ------------------------ | -------- | ----------------------- | --------------------------------------------------------------- |
+| Y-axis plate Extrusion   | 2040     | 4040                    | Gantry needs 2 300mm extrusions purchased if original Ender 3   |
+| V-wheels / rollers       | Plastic  | Slightly higher quality | CNC conversion uses same wheels but alignment becomes critical. |
+| Screws & T-nuts          | Standard | Some upgraded           | Reuse as much as possible; minor differences.                   |
+| Electronics              | V1.1.x   | V4.2.x                  | The Pro version is a better MCU                                 |
+
+## Parts from Ender 3 
 
 | Quantity | Part Description | Notes |
 |----------|------------------|-------|
@@ -33,6 +52,12 @@ I've tried to keep the BOM parts as close as possible to a Voron 3D Printer buil
 | 12x | M3x6 | |
 | **Bearings** |
 | 2x | 688 bearings | If your E3P has these; otherwise buy 608ZZ |
+
+!!! Note
+    You can re-use 2 belt lengths from the Ender 3, but you still need one more ~350mm length. 
+
+!!! Tip
+    You can re-use 3 limit switches from the Ender 3, if you want to cut them off the PCB's but you'll still be missing 1, so you need to order AT LEAST 1 more, it is probably easier just to buy a new set if you go with this option. The recommendation is to go with the endstop mod.
 
 ---
 

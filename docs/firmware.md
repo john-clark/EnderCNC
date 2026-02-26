@@ -4,22 +4,22 @@ This chapter explains firmware options for your Ender 3 PRO CNC conversion.
 
 ---
 
-## 1. Options
+## Supported Options
 
 | Firmware | Notes |
 |----------|-------|
-| Klipper  | Recommended if using Raspberry Pi or similar |
-| GRBL     | Standard CNC option, works with ESP32/32-bit boards |
+| Klipper  | Recommended if a Raspberry Pi or old laptop is available |
+| GRBL     | Standard CNC option, must purchase an ESP32/32-bit board |
 
 ---
 
-## 2. Klipper Setup
+## Klipper Setup
 
-1. Follow standard Klipper installation on your Raspberry Pi or Linux laptop.
+1. Follow standard Klipper installation on your Raspberry Pi or Linux laptop. We recommend [dw-0/kiauh](https://github.com/dw-0/kiauh) to get started.
 
 2. Copy a reference `printer.cfg` for the Ender CNC:
-   * Set stepper, endstop, spindle, and belt parameters for your MCU
-   * Make sure all motors are spinning correctly
+   * Make sure the stepper, endstop, spindle, and belt parameters are correct for your MCU
+   * Make sure all motors are spinning correctly and settings are correct for your MCU
   
 3. Test all axes manually before enabling motor power.
 
@@ -40,7 +40,7 @@ Notice in the picture that the processor and motor has documented pins.
 
 ---
 
-## 3. GRBL Setup
+## GRBL Setup
 
 1. Flash your GRBL-compatible board according to manufacturer instructions.  
 2. Use the reference configuration for stepper settings, endstops, and spindle control.  
@@ -61,5 +61,5 @@ Notice in the picture that the processor and motor has documented pins.
 !!! warning
     Verify wiring because Creality motors have crossover wires.
 
- !!! warning
+!!! warning
     Y axis has one motor inverted. Test Y motor without belts first.

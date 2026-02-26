@@ -51,6 +51,7 @@ nav:
   - Firmware Setup: firmware.md
   - Troubleshooting: troubleshooting.md
   - Post Processing:
+      - General info: post_processing.md
       - Fusion360: fusion360.md
       - Freecad: freecad.md
       - Kiri:Moto: kirimoto.md

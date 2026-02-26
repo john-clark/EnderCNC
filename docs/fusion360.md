@@ -1,31 +1,55 @@
 # Fusion 360 Klipperized post processor
 
-## Full credit to Zergie for this project.
+Transform your Fusion 360 CAM workflow into a CNC-ready G-code workflow compatible with Klipper. This guide shows how to install and use the **Klipperized post processor** created for MPCNC and similar machines.
 
-!!! Tip
-        Use this if you are using Klipper as a controller for the CNC.
+## Credits
 
-## "Get it [here!](https://github.com/Zergie/mpcnc_post_processor)"
+Post processor by [Zergie/mpcnc_post_processor](https://github.com/Zergie/mpcnc_post_processor)– thanks for making Klipper integration possible!
 
-### How to install
+## Installation
 
-- Download the .cps file from the link above
-- Open Fusion360
-- Find and go to the "manufacture tab"
-- Find and press "post process"
-- Click the folder Icon (select post from the library)
-- Click Import
-- Find the downloaded .CPS file and press Select
+1. **Download the Post Processor**
+   Download the `.cps` file from the GitHub repository linked above.
 
-It should now look like this
+2. **Open Fusion 360**
+   Navigate to the **Manufacture** workspace.
 
-<img width="413" height="123" alt="image" src="https://github.com/user-attachments/assets/c243b043-7aa4-4c08-ac71-b8347e3aa145" />
+3. **Import the Post Processor**
 
-### info
+   * Click **Post Process** in the toolbar.
+   * Click the **folder icon** to select a post from the library.
+   * Click **Import**.
+   * Browse to your downloaded `.cps` file and click **Select**.
 
-- Do NOT select "upload and run", this will auto start the cutting job
-- Do not use G1->G0 rapids at first, get used to the machine first. This will make travel moves very fast.
-<img width="902" height="785" alt="image" src="https://github.com/user-attachments/assets/a0539942-e08f-40a8-9d20-c747a97e7170" />
+4. **Confirmation**
+   Once imported, your post processor will appear in the list of available posts.
+
+   <img alt="image" src="https://github.com/user-attachments/assets/c243b043-7aa4-4c08-ac71-b8347e3aa145" />
+
+---
+
+### Usage Notes
+
+* **Do NOT select "upload and run"**
+        This will immediately start your CNC job — risky if your setup isn’t ready.
+* **Avoid setting G1 moves to G0 rapids at first**
+        Travel moves will become extremely fast. Familiarize yourself with your machine before enabling.
+
+   <img alt="image" src="https://github.com/user-attachments/assets/a0539942-e08f-40a8-9d20-c747a97e7170" />
+
+ * Double-check toolpaths and clearance heights before running a job.
+
+ * Always simulate in Fusion 360 first to prevent collisions.
+
+---
+
+## Recommended Workflow
+
+1. Prepare your 3D model or 2D sketch.
+2. Generate toolpaths using **2.5D or 3D milling operations**.
+3. Select the **Klipperized post processor** for your CNC machine.
+4. Export the G-code.
+5. Load into your Klipper interface (e.g., Mainsail, Fluidd) and test with small movements first.
 
 ---
 

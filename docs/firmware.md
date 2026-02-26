@@ -46,16 +46,15 @@ Notice in the picture that the processor and motor has documented pins.
 2. Use the reference configuration for stepper settings, endstops, and spindle control.  
 3. Test movement manually before running any G-Code.
 
+**[FluidNC](https://eghasemy.github.io/FluidNC_GUI/docs/getting-started/understanding-fluidnc/) Setup**
 
-![Macrobase MCU](images/616JqA4v1WL._AC_SL1200_.jpg)
-
-Typical CAM software
+**Typical GRBL CAM software**
 
 * [Candle](https://github.com/Denvi/Candle)
 * [OpenBuilds](https://software.openbuilds.com/)
 * [PlanetCNC](https://planet-cnc.com/download.html)
 
-## [FluidNC](https://eghasemy.github.io/FluidNC_GUI/docs/getting-started/understanding-fluidnc/) Setup
+![Macrobase MCU](images/616JqA4v1WL._AC_SL1200_.jpg)
 
 ---
 

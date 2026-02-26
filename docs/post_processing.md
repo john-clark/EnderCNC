@@ -65,6 +65,6 @@ Every machine is slightly different: frame size, stepper drivers, firmware, and 
 
 ## CNC Simulation
 
-* [CAMpootics](https://camotics.org/)
+* [CAMotics](https://camotics.org/)
 * [NC Viewer](https://ncviewer.com/)
 * [Kiri:moto](https://grid.space/kiri/)

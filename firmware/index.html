@@ -893,10 +893,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1-options" class="md-nav__link">
+  <a href="#supported-options" class="md-nav__link">
     <span class="md-ellipsis">
       
-        1. Options
+        Supported Options
       
     </span>
   </a>
@@ -904,15 +904,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#2-klipper-setup" class="md-nav__link">
+  <a href="#klipper-setup" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2. Klipper Setup
+        Klipper Setup
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="2. Klipper Setup">
+    <nav class="md-nav" aria-label="Klipper Setup">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -943,15 +943,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-grbl-setup" class="md-nav__link">
+  <a href="#grbl-setup" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3. GRBL Setup
+        GRBL Setup
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="3. GRBL Setup">
+    <nav class="md-nav" aria-label="GRBL Setup">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1199,7 +1199,7 @@
 <h1 id="firmware-setup">Firmware Setup<a class="headerlink" href="#firmware-setup" title="Permanent link">&para;</a></h1>
 <p>This chapter explains firmware options for your Ender 3 PRO CNC conversion.</p>
 <hr />
-<h2 id="1-options">1. Options<a class="headerlink" href="#1-options" title="Permanent link">&para;</a></h2>
+<h2 id="supported-options">Supported Options<a class="headerlink" href="#supported-options" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -1210,26 +1210,26 @@
 <tbody>
 <tr>
 <td>Klipper</td>
-<td>Recommended if using Raspberry Pi or similar</td>
+<td>Recommended if a Raspberry Pi or old laptop is available</td>
 </tr>
 <tr>
 <td>GRBL</td>
-<td>Standard CNC option, works with ESP32/32-bit boards</td>
+<td>Standard CNC option, must purchase an ESP32/32-bit board</td>
 </tr>
 </tbody>
 </table>
 <hr />
-<h2 id="2-klipper-setup">2. Klipper Setup<a class="headerlink" href="#2-klipper-setup" title="Permanent link">&para;</a></h2>
+<h2 id="klipper-setup">Klipper Setup<a class="headerlink" href="#klipper-setup" title="Permanent link">&para;</a></h2>
 <ol>
 <li>
-<p>Follow standard Klipper installation on your Raspberry Pi or Linux laptop.</p>
+<p>Follow standard Klipper installation on your Raspberry Pi or Linux laptop. We recommend <a href="https://github.com/dw-0/kiauh">dw-0/kiauh</a> to get started.</p>
 </li>
 <li>
 <p>Copy a reference <code>printer.cfg</code> for the Ender CNC:</p>
 </li>
-<li>Set stepper, endstop, spindle, and belt parameters for your MCU</li>
+<li>Make sure the stepper, endstop, spindle, and belt parameters are correct for your MCU</li>
 <li>
-<p>Make sure all motors are spinning correctly</p>
+<p>Make sure all motors are spinning correctly and settings are correct for your MCU</p>
 </li>
 <li>
 <p>Test all axes manually before enabling motor power.</p>
@@ -1248,7 +1248,7 @@
 <p>Notice in the picture that the processor and motor has documented pins.</p>
 <p><img alt="Creality v1 mcu" src="../images/enderv1mcu.png" /></p>
 <hr />
-<h2 id="3-grbl-setup">3. GRBL Setup<a class="headerlink" href="#3-grbl-setup" title="Permanent link">&para;</a></h2>
+<h2 id="grbl-setup">GRBL Setup<a class="headerlink" href="#grbl-setup" title="Permanent link">&para;</a></h2>
 <ol>
 <li>Flash your GRBL-compatible board according to manufacturer instructions.  </li>
 <li>Use the reference configuration for stepper settings, endstops, and spindle control.  </li>
@@ -1271,8 +1271,10 @@
 <p class="admonition-title">Warning</p>
 <p>Verify wiring because Creality motors have crossover wires.</p>
 </div>
-<p>!!! warning
-    Y axis has one motor inverted. Test Y motor without belts first.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Y axis has one motor inverted. Test Y motor without belts first.</p>
+</div>
 
 
 

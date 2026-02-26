@@ -38,7 +38,7 @@ While this is still a developing platform, current test results demonstrate:
 * Aluminum machining with conservative feeds
 * Repeatable part production
 
-Final performance depends on tool selection, feeds and speeds, spindle choice, and tuning quality.
+The conversion reinforces primary load paths and implements independent dual Y-axis control, reducing racking, improving torsional resistance, and increasing positional stability under machining forces. Final performance depends on tool selection, feeds and speeds, spindle choice, and tuning quality.
 
 This is not an industrial VMC. It is a capable, budget-conscious desktop CNC system when built and configured properly.
 
@@ -76,7 +76,8 @@ This build rewards patience and mechanical understanding.
 ![Ender3CNC Build 1](images/447669414-df2746be-0fd8-4aa2-b609-81031dc4cfa2.png)
 ![Ender3CNC Build 2](images/447669480-43854a83-0945-4e80-aa53-9ccf8a7e4b0b.png)
 
-The conversion reinforces primary load paths and implements independent dual Y-axis control, reducing racking, improving torsional resistance, and increasing positional stability under machining forces.
+!!! success Build Gallery
+    See user builds in the [Gallery](Builds/gallery.md)
 
 ---
 

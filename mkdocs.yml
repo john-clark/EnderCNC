@@ -32,6 +32,7 @@ edit_uri: "edit/main/docs/"
 # Navigation / sidebar
 nav:
   - Introduction: index.md
+  - Build Gallery: Builds/gallery.md
   - Tools & Parts:
       - Tools: tools.md
       - Hardware: hardware.md

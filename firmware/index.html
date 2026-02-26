@@ -943,15 +943,26 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#grbl-setup" class="md-nav__link">
+  <a href="#grbl-setup-fluidnc" class="md-nav__link">
     <span class="md-ellipsis">
       
-        GRBL Setup
+        GRBL Setup / FluidNC
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="GRBL Setup">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fluidnc-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FluidNC Setup
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="FluidNC Setup">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1197,7 +1208,7 @@
 
 
 <h1 id="firmware-setup">Firmware Setup<a class="headerlink" href="#firmware-setup" title="Permanent link">&para;</a></h1>
-<p>This chapter explains firmware options for your Ender 3 PRO CNC conversion.</p>
+<p>This chapter explains firmware options for your Ender 3 CNC conversion.</p>
 <hr />
 <h2 id="supported-options">Supported Options<a class="headerlink" href="#supported-options" title="Permanent link">&para;</a></h2>
 <table>
@@ -1240,20 +1251,28 @@
 </ol>
 <h3 id="example-configs">Example configs<a class="headerlink" href="#example-configs" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="/klipper/v1.1.x_printer.cfg">Version 1.1.x Ender MCU printer.cfg</a></li>
-<li><a href="/klipper/v4.2.2_printer.cfg">Version 4.2.2 Ender MCU printer.cfg</a></li>
-<li><a href="/klipper/v4.2.7_printer.cfg">Version 4.2.7 Ender MCU printer.cfg</a></li>
+<li><a href="/klipper/v1.1.x_printer.cfg">Version 1.1.x Ender MCU printer.cfg</a> Original Ender 3</li>
+<li><a href="/klipper/v4.2.2_printer.cfg">Version 4.2.2 Ender MCU printer.cfg</a> Ender 3 Pro</li>
+<li><a href="/klipper/v4.2.7_printer.cfg">Version 4.2.7 Ender MCU printer.cfg</a> Latest Ender 3 pro</li>
 </ul>
 <h3 id="how-to-document-your-mainboard">How to document your mainboard<a class="headerlink" href="#how-to-document-your-mainboard" title="Permanent link">&para;</a></h3>
 <p>Notice in the picture that the processor and motor has documented pins.</p>
 <p><img alt="Creality v1 mcu" src="../images/enderv1mcu.png" /></p>
 <hr />
-<h2 id="grbl-setup">GRBL Setup<a class="headerlink" href="#grbl-setup" title="Permanent link">&para;</a></h2>
+<h2 id="grbl-setup-fluidnc">GRBL Setup / FluidNC<a class="headerlink" href="#grbl-setup-fluidnc" title="Permanent link">&para;</a></h2>
 <ol>
 <li>Flash your GRBL-compatible board according to manufacturer instructions.  </li>
 <li>Use the reference configuration for stepper settings, endstops, and spindle control.  </li>
 <li>Test movement manually before running any G-Code.</li>
 </ol>
+<p><img alt="Macrobase MCU" src="../images/616JqA4v1WL._AC_SL1200_.jpg" /></p>
+<p>Typical CAM software</p>
+<ul>
+<li><a href="https://github.com/Denvi/Candle">Candle</a></li>
+<li><a href="https://software.openbuilds.com/">OpenBuilds</a></li>
+<li><a href="https://planet-cnc.com/download.html">PlanetCNC</a></li>
+</ul>
+<h2 id="fluidnc-setup"><a href="https://eghasemy.github.io/FluidNC_GUI/docs/getting-started/understanding-fluidnc/">FluidNC</a> Setup<a class="headerlink" href="#fluidnc-setup" title="Permanent link">&para;</a></h2>
 <hr />
 <h3 id="important-notes">IMPORTANT NOTES<a class="headerlink" href="#important-notes" title="Permanent link">&para;</a></h3>
 <blockquote>

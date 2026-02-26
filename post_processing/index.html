@@ -12,13 +12,13 @@
         <meta name="author" content="John Clark">
       
       
-        <link rel="canonical" href="https://john-clark.github.io/EnderCNC/belts/">
+        <link rel="canonical" href="https://john-clark.github.io/EnderCNC/post_processing/">
       
       
-        <link rel="prev" href="../gantry/">
+        <link rel="prev" href="../troubleshooting/">
       
       
-        <link rel="next" href="../spindle/">
+        <link rel="next" href="../fusion360/">
       
       
         
@@ -29,7 +29,7 @@
     
     
       
-        <title>Belts - Ender 3 CNC Build Manual</title>
+        <title>General info - Ender 3 CNC Build Manual</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#belts-and-spindle" class="md-skip">
+        <a href="#what-is-a-post-processor" class="md-skip">
           Skip to content
         </a>
       
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Belts
+              General info
             
           </span>
         </div>
@@ -749,37 +749,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Belts
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../belts/" class="md-nav__link">
         
   
   
@@ -795,48 +768,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#1-parts-required" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        1. Parts Required
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2-belt-installation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        2. Belt Installation
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -953,8 +884,10 @@
       
   
   
+    
   
   
+  
     
     
     
@@ -965,11 +898,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" checked>
         
           
           <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="">
@@ -990,7 +923,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_12">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1005,10 +938,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../post_processing/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    General info
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1024,6 +984,82 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-it-fits-into-the-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How it Fits Into the Workflow
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How it Fits Into the Workflow">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#visual-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Visual Workflow
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-you-need-the-right-post-processor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why You Need the Right Post Processor
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Why You Need the Right Post Processor">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#key-benefits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Benefits
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1140,48 +1176,62 @@
   
 
 
-<h1 id="belts-and-spindle">Belts and Spindle<a class="headerlink" href="#belts-and-spindle" title="Permanent link">&para;</a></h1>
-<p>This chapter covers routing the GT2 belts.</p>
+<h1 id="what-is-a-post-processor">What is a Post Processor?<a class="headerlink" href="#what-is-a-post-processor" title="Permanent link">&para;</a></h1>
+<p>A <strong>post processor</strong> is a software component that translates the toolpath information generated by your CAM software (like Fusion 360) into <strong>G-code instructions</strong> your CNC machine can understand. Think of it as the "interpreter" between your design and your machine’s motors.</p>
+<p>Without the correct post processor, your CNC may <strong>move incorrectly, ignore settings, or even crash</strong>.</p>
 <hr />
-<h2 id="1-parts-required">1. Parts Required<a class="headerlink" href="#1-parts-required" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Qty</th>
-<th>Item</th>
-<th>Source</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>3pc</td>
-<td>~500mm GT2 6mm Belt</td>
-<td>Buy</td>
-<td>Measure carefully before cutting</td>
-</tr>
-<tr>
-<td>12pc</td>
-<td>M3x10</td>
-<td>Buy</td>
-<td>Some may be spare from Ender3</td>
-</tr>
-<tr>
-<td>6pc</td>
-<td>Printed Belt Clamp</td>
-<td>Printed</td>
-<td>Holds belt ends securely</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="2-belt-installation">2. Belt Installation<a class="headerlink" href="#2-belt-installation" title="Permanent link">&para;</a></h2>
+<h2 id="how-it-fits-into-the-workflow">How it Fits Into the Workflow<a class="headerlink" href="#how-it-fits-into-the-workflow" title="Permanent link">&para;</a></h2>
 <ol>
-<li>Route GT2 belts along X and Y axes.  </li>
-<li>Use printed belt clamps to secure belt ends.  </li>
-<li>Ensure belts are <strong>tight but not overly stretched</strong>.  </li>
-<li>Test X/Y motion manually to confirm smooth travel.</li>
+<li>
+<p><strong>Design</strong>
+   Create your part in CAD software (Fusion 360, FreeCAD, etc.). Define dimensions, shapes, and features.</p>
+</li>
+<li>
+<p><strong>CAM (Computer-Aided Manufacturing)</strong>
+   Generate <strong>toolpaths</strong> for your part. Toolpaths include the cutting moves, speeds, feeds, and spindle operations.</p>
+</li>
+<li>
+<p><strong>Post Processor</strong>
+   Convert the generic toolpaths into <strong>machine-specific G-code</strong>. This step ensures that your instructions match the firmware, kinematics, and hardware of your CNC.</p>
+</li>
+<li>
+<p>Example: The <strong>Klipperized post processor</strong> adapts toolpaths to standard Klipper commands.</p>
+</li>
+<li>
+<p>It handles nuances like:</p>
+<ul>
+<li>G0/G1 rapid vs. linear moves</li>
+<li>Motor steps and acceleration</li>
+<li>Machine coordinates and offsets</li>
+<li>Tool change commands (if applicable)</li>
+</ul>
+</li>
+<li>
+<p><strong>CNC Controller</strong>
+   Load the generated G-code into your CNC controller (Mainsail, Fluidd, or other Klipper interfaces).
+   The controller executes the commands, moving your machine precisely along the toolpaths.</p>
+</li>
+<li>
+<p><strong>Cutting / Milling / Engraving</strong>
+   Watch your design come to life as the CNC follows the instructions accurately.</p>
+</li>
 </ol>
+<h3 id="visual-workflow">Visual Workflow<a class="headerlink" href="#visual-workflow" title="Permanent link">&para;</a></h3>
+<p><img alt="workflow" src="../images/postprocessingworkflow.png" /></p>
+<hr />
+<h2 id="why-you-need-the-right-post-processor">Why You Need the Right Post Processor<a class="headerlink" href="#why-you-need-the-right-post-processor" title="Permanent link">&para;</a></h2>
+<p>Every machine is slightly different: frame size, stepper drivers, firmware, and even how axes are defined can vary. The <strong>post processor ensures your CAM output matches your hardware exactly</strong>, avoiding crashes, misalignments, or wasted material.</p>
+<h3 id="key-benefits">Key Benefits<a class="headerlink" href="#key-benefits" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Prevents collisions and crashes</li>
+<li>Ensures accurate scaling and positioning</li>
+<li>Supports machine-specific features (like dual Y-axis in Ender3 CNC)</li>
+<li>Optimizes travel moves and feed rates for performance and longevity</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Always simulate the G-code in your CNC software (like OctoPrint, Mainsail, or Fluidd) before running a real cut. Even with the right post processor, checking ensures safety and accuracy.</p>
+</div>
 
 
 

@@ -28,9 +28,9 @@ This chapter explains firmware options for your Ender 3 CNC conversion.
 
 ### Example configs
 
-* [Version 1.1.x Ender MCU printer.cfg](/klipper/v1.1.x_printer.cfg) Original Ender 3
-* [Version 4.2.2 Ender MCU printer.cfg](/klipper/v4.2.2_printer.cfg) Ender 3 Pro
-* [Version 4.2.7 Ender MCU printer.cfg](/klipper/v4.2.7_printer.cfg) Latest Ender 3 pro
+* [Version 1.1.x Ender MCU printer.cfg](https://github.com/john-clark/EnderCNC/blob/main/klipper/v1.1.x_printer.cfg) Original Ender 3
+* [Version 4.2.2 Ender MCU printer.cfg](https://github.com/john-clark/EnderCNC/blob/main//klipper/v4.2.2_printer.cfg) Ender 3 Pro
+* [Version 4.2.7 Ender MCU printer.cfg](https://github.com/john-clark/EnderCNC/blob/main//klipper/v4.2.7_printer.cfg) Latest Ender 3 pro
 
 ### How to document your mainboard
 
@@ -73,3 +73,19 @@ Notice in the picture that the processor and motor has documented pins.
 
 !!! warning
     Y axis has one motor inverted. Test Y motor without belts first.
+
+---
+
+## Ready to Proceed?
+
+You have now completed Ender3CNC build and you can now do **Trouble Shooting** or move onto **Post Processing**.
+
+<p align="center">
+  <a href="/EnderCNC/troubleshooting" class="md-button md-button--warning">
+    Troubleshooting →
+  </a>
+
+  <a href="/EnderCNC/post_processing" class="md-button md-button--primary">
+    Post Processing →
+  </a>
+</p>

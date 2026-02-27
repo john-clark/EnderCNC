@@ -14,6 +14,7 @@
 
 ## Other parts 
 
+- [2020 Extrusion Blind Joint Through hole Jig](https://www.printables.com/model/815359-2020-extrusion-blind-joint-drilling-jig)
 - [Press-fit pulley Extractor](https://www.printables.com/model/230013-press-fit-pulley-extractor-for-nema-17)
 - Spacers
 - [Clamps](https://www.printables.com/model/125781-clamp-holder-for-a-3018-cnc-milling-engraving-mach)
@@ -25,6 +26,9 @@
 - [Electronics Enclosure](https://www.printables.com/model/226631-external-electronics-box-for-ender-3-pro)
 - [Parts Organizer](https://www.printables.com/model/84834-parametric-small-parts-organizer-tray-for-disassem)
 
+### [Through hole Jig](https://www.printables.com/model/815359-2020-extrusion-blind-joint-drilling-jig)
+
+![image](images/img_6343.png)
 
 ### [Pully Extractor](https://www.printables.com/model/230013-press-fit-pulley-extractor-for-nema-17)
 
@@ -65,11 +69,10 @@
 
 ## Ready to Proceed?
 
-Once you have printed the required parts, continue to the next section to and begin the frame assembly.
+After completing these steps, you are ready to **Disassemble your Ender 3**.
 
 <p align="center">
-  <a href="/EnderCNC/frame" class="md-button md-button--primary">
-    Continue to Frame Assembly →
+  <a href="/EnderCNC/disassembly" class="md-button md-button--primary">
+    Continue to Ender Disassembly →
   </a>
 </p>
-

@@ -31,3 +31,17 @@ This chapter covers attaching your spindle or Dremel clamp.
 
 !!! warning
     Ensure the spindle cannot move during operation — any slip can damage the machine or workpiece.
+
+---
+
+---
+
+## Ready to Proceed?
+
+You have now completed tool attachment and ready to move on to the **Wiring and Electronics**.
+
+<p align="center">
+  <a href="/EnderCNC/wiring" class="md-button md-button--primary">
+    Continue to Wiring and Electronics →
+  </a>
+</p>

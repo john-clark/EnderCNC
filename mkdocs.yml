@@ -37,16 +37,15 @@ nav:
       - Tools: tools.md
       - Hardware: hardware.md
       - Printed Parts: printed_parts.md
-  - Frame Assembly:
-      - Frame Overview: frame.md
-  - Carriage Assembly:
-      - Setup: carriage_heatsets.md
-      - Bearings: carriage_bearings.md
-      - Assembly: carriage_assembly.md
-  - Gantry Assembly:
+      - Disassembly: disassembly.md
+  - Assembly:
+      - Prepare: carriage_prep.md
+      - Carriage: carriage_assembly.md
+      - XY Joints: gantry_ends.md
+      - Frame: frame.md
       - Gantry: gantry.md
-  - Belts: belts.md
-  - Spindle: spindle.md
+      - Belts: belts.md
+      - Spindle: spindle.md
   - Wiring & Electronics: wiring.md
   - Firmware Setup: firmware.md
   - Troubleshooting: troubleshooting.md

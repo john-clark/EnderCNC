@@ -1,41 +1,11 @@
-# Carriage Assembly
+# Z Carriage Assembly
 
-This chapter covers assembling the carriage, mounting motors, bearings, and spacers.
-
----
-
-## 1. Parts Required
-
-| Qty   | Item                    | Source   | Notes                        |
-|-------|-------------------------|----------|------------------------------|
-| 4pc   | M3x8 BHSC               | Ender3   |                              |
-| 2pc   | M3x10                   | Buy      |                              |
-| 10pc  | M5x16 BHSC              | Buy      |                              |
-| 2pc   | M5x8 BHSC               | Ender3   |                              |
-| 4pc   | M3x40                   | Ender3   |                              |
-| 4pc   | M5x45 SHSC              | Ender3   | Remove shims                 |
-| 1pc   | M5x65 BHSC              | Buy      |                              |
-| 12pc  | M3x8 SHSC               | Buy      |                              |
-| 2pc   | M3x16 BHSC              | Ender3   |                              |
-| 9pc   | Aluminum Spacers        | Ender3   |                              |
-| 1pc   | 28.35mm Printed Spacer  | Printed  |                              |
-| 5pc   | V-Wheels                | Ender3   |                              |
-| 4pc   | 32.60mm Printed Spacer  | Printed  |                              |
-| 8pc   | M3x10 BHSC              | Ender3   |                              |
+This chapter focuses on the Z-axis carriage, bearings, and coupler alignment.
 
 ---
 
-## 2. Assembly Exploded
 
-![Exploded Assembly](images/carriage_info.webp)
-
----
-
-## 3. Assemble the X+Z Carriage
-
-!!! Tip
-    When cutting the z rail start with the center cut `1` and then cut the outside through holes off so there is more extrusion to thread on to and it is easier to make sure they are the same length.
-    ![cut 2020](images/z_cuts.png)
+## Assemble the X+Z Carriage
 
 1. Cut Ender3 2020 extrusions to 150mm x2.  
 2. Tap M5 threads in **both ends** of the 150mm extrusions.  
@@ -57,7 +27,86 @@ This chapter covers assembling the carriage, mounting motors, bearings, and spac
 13. Screw leadscrew from bottom bearing to Z motor coupler and secure.  
 14. Slide the X+Z assembly on the previously cut X extrusion.
 
-![X+Z Carriage](images/449552007-73a1652d-c0c2-4bb7-a2be-acec6fe921a0.png)
+## Parts Required
+
+| Qty | Item          | Source | Notes |
+|-----|---------------|--------|-------|
+| 1pc | Z Carriage Plate | Printed | Heatset inserts required |
+| 2pc | M5 Locknuts      | Buy    | Press-fit into plate |
+| 2pc | M5x16 BHSC       | Buy    | Z-axis carriage attachment |
+| 1pc | Leadscrew Nut    | Buy    | M5 threaded for Z |
+| 2pc | MGN12H Carriages | Buy    | For smooth linear motion |
+
+## Bearing Choice
+
+### If you dont have 608Z use the F688Z from the Ender 3 Pro X axis tensioner. 
+![bearing_choice](images/447661599-d841fb1d-110e-4ea4-9d34-9ba2e50c555c.png)
+
+---
+
+## Backplate Assembly
+
+1. Insert heatset inserts into Z carriage plate.  
+2. Press-fit M5 locknuts into their designated holes.  
+
+![image](images/tool1.png)
+
+3. Attach M5 Locknuts and Bolts to Z carriage plate.
+  
+![image](images/tool2.png)
+
+4. Assemble X gantry motor plate
+
+![image](images/tool3.png)
+
+5. Attach X gantry motor plate to xz gantry plate
+
+![image](images/tool4.png)
+
+---
+
+## Frontplate 
+
+1. Attach motor to top plate
+2. Loosely attach coupler to Z motor shaft.  
+
+![image](images/tool5.png)
+
+
+1. Attach bottom plate to extrusion
+2. Attach 2020 Extrusion to rails  
+3. Attach MGN12H carriages to the 2020 extrusions if not already done.  
+4. Slide Z carriage onto MGN12H carriages.  
+
+![Z Carriage Assembly](images/tool6.png)
+
+5. Attach leadscrew nut to Z carriage.  
+6. Attach z top to extrusion by inserting leadscrew from bottom bearing to coupler:
+   - Ensure smooth rotation by hand.  
+   - Adjust alignment if carriage binds on rails.
+
+![Z Carriage Assembly](images/tool7.png)
+
+---
+
+## Assembly
+
+Attach Backplate to Extrusion and top screws
+
+![image](images/449552007-73a1652d-c0c2-4bb7-a2be-acec6fe921a0.png)
+
+---
+
+## Tips & Tricks
+
+!!! tip
+    Test the Z-axis movement **manually** before wiring the motors.  
+    Smooth motion now saves time troubleshooting later.
+
+!!! warning
+    Avoid forcing the leadscrew; misalignment can strip threads in the coupler.
+
+---
 
 ![X+Z Carriage](images/449552147-77d2ba43-ecc7-4f77-92b8-ad5840bc0d95.png)
 
@@ -70,10 +119,10 @@ This chapter covers assembling the carriage, mounting motors, bearings, and spac
     
 ## Ready to Proceed?
 
-After completing these steps, your **Carriage Assembly is ready for Ganty installation**.
+After completing these steps, your ready for **Gantry Assembly**.
 
 <p align="center">
-  <a href="/EnderCNC/gantry" class="md-button md-button--primary">
-    Continue to Mounting Carriage on the Gantry  →
+  <a href="/EnderCNC/gantry_ends" class="md-button md-button--primary">
+    Continue to Gantry Assembly →
   </a>
 </p>

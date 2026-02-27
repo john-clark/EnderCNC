@@ -125,5 +125,17 @@ This manual will guide you through tools, parts, mechanical conversion, and conf
   </a>
 </p>
 
+---
+
+## Need to see more?
+
+<p align="center">
+  <a href="Builds/gallery" class="md-button md-button--secondary">
+    View the Build Gallery →
+  </a>
+</p>
+
+
+
 !!! tip "Recommended Approach"
     Follow the chapters sequentially. Mechanical alignment, structural rigidity, and configuration steps build on one another.

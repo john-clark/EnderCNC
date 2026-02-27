@@ -9,8 +9,6 @@ The Ender 3 is a well-understood, mechanically consistent motion platform. Ender
 
 This manual provides a structured, engineering-focused pathway to convert a standard Ender 3 (or Ender 3 Pro) into a rigid, repeatable CNC platform using:
 
-* Maximum hardware reuse
-* Minimal additional cost
 * Documented design decisions
 * Tested configurations
 

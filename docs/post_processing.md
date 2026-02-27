@@ -63,6 +63,28 @@ Every machine is slightly different: frame size, stepper drivers, firmware, and 
 !!! Tip
     Always simulate the G-code in your CNC software (like OctoPrint, Mainsail, or Fluidd) before running a real cut. Even with the right post processor, checking ensures safety and accuracy.
 
+---
+
+## Choose a Post Processor
+
+
+
+<p align="center">
+  <a href="/EnderCNC/dfusion360isassembly" class="md-button md-button--primary">
+    Fusion 360 →
+  </a>
+
+  <a href="/EnderCNC/freecad" class="md-button md-button--primary">
+    FreeCAD →
+  </a>
+
+  <a href="/EnderCNC/kirimodo" class="md-button md-button--primary">
+    Kiri:moto →
+  </a>
+</p>
+
+---
+
 ## CNC Simulation
 
 * [CAMotics](https://camotics.org/)

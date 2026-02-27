@@ -12,13 +12,13 @@
         <meta name="author" content="John Clark">
       
       
-        <link rel="canonical" href="https://john-clark.github.io/EnderCNC/carriage_heatsets/">
+        <link rel="canonical" href="https://john-clark.github.io/EnderCNC/gantry_ends/">
       
       
-        <link rel="prev" href="../frame/">
+        <link rel="prev" href="../carriage_assembly/">
       
       
-        <link rel="next" href="../carriage_bearings/">
+        <link rel="next" href="../frame/">
       
       
         
@@ -29,7 +29,7 @@
     
     
       
-        <title>Setup - Ender 3 CNC Build Manual</title>
+        <title>XY Joints - Ender 3 CNC Build Manual</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#carriage-setup" class="md-skip">
+        <a href="#gantry" class="md-skip">
           Skip to content
         </a>
       
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Setup
+              XY Joints
             
           </span>
         </div>
@@ -421,65 +421,6 @@
 
               
             
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-      
-        
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
-        
-          
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Frame Assembly
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Frame Assembly
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
               
                 
   
@@ -487,14 +428,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../frame/" class="md-nav__link">
+      <a href="../disassembly/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Frame Overview
+    Disassembly
   
 
     
@@ -537,17 +478,17 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
             
   
   
   <span class="md-ellipsis">
     
   
-    Carriage Assembly
+    Assembly
   
 
     
@@ -558,16 +499,72 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_5">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             
   
-    Carriage Assembly
+    Assembly
   
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../carriage_prep/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prepare
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../carriage_assembly/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Carriage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -592,7 +589,7 @@
   <span class="md-ellipsis">
     
   
-    Setup
+    XY Joints
   
 
     
@@ -610,7 +607,7 @@
   <span class="md-ellipsis">
     
   
-    Setup
+    XY Joints
   
 
     
@@ -636,6 +633,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#assemble-the-gantry-brackets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Assemble the Gantry Brackets
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#parts-required" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -648,10 +656,38 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#heatsets" class="md-nav__link">
+  <a href="#exploded-view" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Heatsets
+        Exploded View
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assembly-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Assembly Steps
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Assembly Steps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#add-heatsets-to-xy-joints" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Add Heatsets to XY Joints
       
     </span>
   </a>
@@ -659,10 +695,32 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#pressfit-locknuts" class="md-nav__link">
+  <a href="#attach-nema17-motors" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Pressfit Locknuts
+        Attach Nema17 Motors
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mount-v-wheels" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mount V-Wheels
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-v-wheels-and-lock-nuts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Add V-Wheels and Lock Nuts
       
     </span>
   </a>
@@ -701,14 +759,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../carriage_bearings/" class="md-nav__link">
+      <a href="../frame/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Bearings
+    Frame
   
 
     
@@ -721,93 +779,6 @@
   
 
               
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../carriage_assembly/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Assembly
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-      
-        
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
-        
-          
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Gantry Assembly
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Gantry Assembly
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
             
               
                 
@@ -837,15 +808,8 @@
 
               
             
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
+              
+                
   
   
   
@@ -870,9 +834,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -894,6 +859,14 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -999,10 +972,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
         
           
-          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="">
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
             
   
   
@@ -1020,8 +993,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_12">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -1170,63 +1143,91 @@
   
 
 
-<h1 id="carriage-setup">Carriage Setup<a class="headerlink" href="#carriage-setup" title="Permanent link">&para;</a></h1>
-<p>This chapter covers the heatsets and pressfits for the carriage.</p>
-<hr />
+<h1 id="gantry">Gantry<a class="headerlink" href="#gantry" title="Permanent link">&para;</a></h1>
+<h2 id="assemble-the-gantry-brackets">Assemble the Gantry Brackets<a class="headerlink" href="#assemble-the-gantry-brackets" title="Permanent link">&para;</a></h2>
+<p>!!! Note:
+    Press fits and tolerances may vary slightly between frames.</p>
 <h2 id="parts-required">Parts Required<a class="headerlink" href="#parts-required" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
 <th>Qty</th>
-<th>Item</th>
+<th>Part</th>
 <th>Source</th>
 <th>Notes</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>7pc</td>
-<td>M3 Heatsets</td>
+<td>4pc</td>
+<td>Heatset</td>
 <td>Buy</td>
-<td>M3x5x4 "Voron spec"</td>
+<td>Voron Spec</td>
 </tr>
 <tr>
-<td>12pc</td>
-<td>Lock Nuts</td>
-<td>Buy</td>
+<td>8pc</td>
+<td>M5x45 SHSC</td>
+<td>Ender3</td>
+<td>Remove shims from these</td>
+</tr>
+<tr>
+<td>8pc</td>
+<td>M3x10</td>
+<td>BUY</td>
+<td></td>
+</tr>
+<tr>
+<td>8pc</td>
+<td>8mm Spacer (Printed or 5mm bore Alu)</td>
+<td>Ender3</td>
+<td></td>
+</tr>
+<tr>
+<td>8pc</td>
+<td>V-Wheels</td>
+<td>Ender3</td>
+<td></td>
+</tr>
+<tr>
+<td>8pc</td>
+<td>M5 Locknuts</td>
+<td>Ender3 or BUY</td>
 <td></td>
 </tr>
 </tbody>
 </table>
-<h3 id="heatsets">Heatsets<a class="headerlink" href="#heatsets" title="Permanent link">&para;</a></h3>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>Make sure heatsets are flush and perpendicular.</p>
-</div>
-<p><strong>XZ Carriage Plate</strong></p>
-<p><img alt="XZ_gantry_heatsets" src="../images/447660230-4fba9685-d5d5-408a-81e0-5332c101e72b.png" /></p>
-<p><strong>Dremel Plate</strong></p>
-<p><img alt="dremel_plate_heatset" src="../images/447660281-914e1b90-3d9a-4424-9e26-8e420fbec676.png" /></p>
-<p><strong>Z Carriage</strong></p>
-<p><img alt="Z_carriage_heatsets" src="../images/447660324-64c9cadd-f4e9-4abc-87e2-47490f4da957.png" /></p>
-<p><strong>X-Motor plate</strong></p>
-<p><img alt="x_motor_heatsets" src="../images/449762478-7332b77a-6eb4-4d05-9346-cdc946e39018.png" /></p>
+<h4 id="exploded-view">Exploded View<a class="headerlink" href="#exploded-view" title="Permanent link">&para;</a></h4>
+<p><img alt="XY_joints_heatsets" src="../images/Gantrybracket.png" /></p>
 <hr />
-<h3 id="pressfit-locknuts">Pressfit Locknuts<a class="headerlink" href="#pressfit-locknuts" title="Permanent link">&para;</a></h3>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p>You may want to add a dab of superglue to the lock nuts to keep them in place.</p>
-</div>
-<p><strong>Z Carriage</strong></p>
-<p><img alt="Z_carriage_locknuts" src="../images/447660752-0c3ac4f8-af64-4019-a32e-04f9a0526972.png" /></p>
-<p><strong>XZ Carriage Plate</strong></p>
-<p><img alt="XZ_gantry_locknuts" src="../images/447660912-1a03e0ed-d0fd-46fe-8d61-cae9c9132e79.png" /></p>
+<h2 id="assembly-steps">Assembly Steps<a class="headerlink" href="#assembly-steps" title="Permanent link">&para;</a></h2>
+<h3 id="add-heatsets-to-xy-joints">Add Heatsets to XY Joints<a class="headerlink" href="#add-heatsets-to-xy-joints" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Insert heatsets</li>
+</ul>
+<p><img alt="XY_joints_heatsets" src="../images/447660396-bd5b7e90-6996-4121-8462-ed7e13717325.png" /></p>
+<h3 id="attach-nema17-motors">Attach Nema17 Motors<a class="headerlink" href="#attach-nema17-motors" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Remove stock pulley from motor with puller if not done already.</li>
+<li>Loosely attach the 20T pulleys to the X-motor if not done already.</li>
+<li>Add the M3x10 screws for securing the motor.</li>
+</ul>
+<blockquote>
+<p><strong>Tip:</strong> Do not tighten fully yet — we will adjust alignment on the frame.</p>
+</blockquote>
+<h3 id="mount-v-wheels">Mount V-Wheels<a class="headerlink" href="#mount-v-wheels" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Slide the M5x45 screws through the XY joint mounting holes.  </li>
+<li>Place the 8mm spacers between the XY joint and the wheel mounts.  </li>
+</ul>
+<p><img alt="image" src="../images/449764142-af060d03-84d5-4548-8cf6-c7b0d1be8810.png" /></p>
+<h3 id="add-v-wheels-and-lock-nuts">Add V-Wheels and Lock Nuts<a class="headerlink" href="#add-v-wheels-and-lock-nuts" title="Permanent link">&para;</a></h3>
+<p><img alt="image" src="../images/gantrymounts.png" /></p>
 <hr />
 <h2 id="ready-to-proceed">Ready to Proceed?<a class="headerlink" href="#ready-to-proceed" title="Permanent link">&para;</a></h2>
-<p>After completing these steps, your Tool head carriage assmbly is ready for <strong>Bearings</strong>.</p>
+<p>Once you have the gantry brackets assembled, continue to the next section to and begin the frame assembly.</p>
 <p align="center">
-  <a href="/EnderCNC/carriage_bearings" class="md-button md-button--primary">
-    Continue to Carriage Bearings Assembly →
+  <a href="/EnderCNC/frame" class="md-button md-button--primary">
+    Continue to Frame Assembly →
   </a>
 </p>
 
